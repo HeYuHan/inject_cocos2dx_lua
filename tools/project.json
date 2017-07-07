@@ -1,0 +1,1784 @@
+{
+    "packageUrl" : "http://update.xlpdk.cn/client/mahjongsichuan/update/1327",
+    "bypackageUrl" : "http://update.xlsymj.com/client/mahjongsichuan/update/1327",
+    "remoteVersionUrl" : "http://update.xlpdk.cn/client/mahjongsichuan/version.manifest",
+    "remoteManifestUrl" : "http://update.xlpdk.cn/client/mahjongsichuan/project.manifest",
+    "byremoteVersionUrl" : "http://update.xlsymj.com/client/mahjongsichuan/version.manifest",
+    "byremoteManifestUrl" : "http://update.xlsymj.com/client/mahjongsichuan/project.manifest",
+    "version" : "1.3.27",
+    "engineVersion" : "Cocos2d-x v3.10",
+
+    "assets" : {    
+    },
+    "newassets" : {    
+		"res/ActivityDragonBoat.csb" : {
+			"md5" : "ae715a69cdb850720646fc242f22c4e5"
+		}, 
+		"res/ActivityInvite.csb" : {
+			"md5" : "e11c157d7e6cf5d7803e5692b466ce39"
+		}, 
+		"res/ActivityInviteBtnAct_1.csb" : {
+			"md5" : "2d9a72cb9e3e2b6aeb4828798edbd4f1"
+		}, 
+		"res/ActivityInviteBtnAct_2.csb" : {
+			"md5" : "6026772fbd1ac691ea2a40a4ddd3ae23"
+		}, 
+		"res/ActivityListView.csb" : {
+			"md5" : "a39aac4fdaf767615618f92e12743821"
+		}, 
+		"res/ActivityMotherDay.csb" : {
+			"md5" : "cdd14aea9b25d6770a0abbc83a8dfa8f"
+		}, 
+		"res/ActivityRecruit.csb" : {
+			"md5" : "3fd45503388d9b461b27d04b21468b61"
+		}, 
+		"res/AgreementPanel.csb" : {
+			"md5" : "b3dd65b187381bd226f4ada0ce35509e"
+		}, 
+		"res/animation/BrightBar.csb" : {
+			"md5" : "e4a20257034a684fb7e040d4e54b8bf5"
+		}, 
+		"res/animation/choujianghuodong_biaoqian.csb" : {
+			"md5" : "755460774ab9f76bce9c30fb1215a4b0"
+		}, 
+		"res/animation/DarkBar.csb" : {
+			"md5" : "4ea1d77df2f680f4a569da7e63f04cae"
+		}, 
+		"res/animation/guafeng.csb" : {
+			"md5" : "0ecf45516be2193816bc39921729ea9f"
+		}, 
+		"res/animation/jiangli_fangka.csb" : {
+			"md5" : "9877b5e6a528d9dd8eb5ec5ba3d1fe8a"
+		}, 
+		"res/animation/kaiju_P.csb" : {
+			"md5" : "33cfdf0ec98f6720d83ddb506834c40c"
+		}, 
+		"res/animation/OutMjtileSign.csb" : {
+			"md5" : "c4eda5be569c32475b3c8efb1ff99b45"
+		}, 
+		"res/animation/xiayu.csb" : {
+			"md5" : "efbf55eb3e69b20cbb60ca63d15755e3"
+		}, 
+		"res/ApplyDismissRoom.csb" : {
+			"md5" : "4cb4b2d5ee97fa29c585bf4b4e28a400"
+		}, 
+		"res/Chat.csb" : {
+			"md5" : "dadddc167cf9b7cf2350b54ec173ae53"
+		}, 
+		"res/ChatPanel.csb" : {
+			"md5" : "6353f8aff66de9d9687a21bc4d7e64f6"
+		}, 
+		"res/CreateRoom_Checkbox.csb" : {
+			"md5" : "f6eb41ade289b6781b0f099942de4d9f"
+		}, 
+		"res/CreateRoom_new.csb" : {
+			"md5" : "28991817e82c664c95f3a972771fa44e"
+		}, 
+		"res/CreateRoom_Radio.csb" : {
+			"md5" : "4b71b2b3067904ebdc904fcc61b643df"
+		}, 
+		"res/CreateRoom_Slider.csb" : {
+			"md5" : "488c985bcd725ae1ad43370f4f17d5d9"
+		}, 
+		"res/da/yinliang.plist" : {
+			"md5" : "dfe6372c70ee9d1d2964c5e3434277b4"
+		}, 
+		"res/da/yinliang.pvr.ccz" : {
+			"md5" : "3c7eaec438070457bb41aa6382eb5268"
+		}, 
+		"res/Default/Button_Disable.png" : {
+			"md5" : "7b8162f32febdc456e4e131991a792c6"
+		}, 
+		"res/Default/Button_Normal.png" : {
+			"md5" : "20bcdc0c51263f0fe0b269511128f102"
+		}, 
+		"res/Default/Button_Press.png" : {
+			"md5" : "2c0341becfcfdccecddc021bb3b94bbe"
+		}, 
+		"res/Default/CheckBox_Disable.png" : {
+			"md5" : "c965e24c8041aafdb763a84ddce9e4b2"
+		}, 
+		"res/Default/ImageFile.png" : {
+			"md5" : "65558f16ce306604da0612c8eeddd90a"
+		}, 
+		"res/Default/Sprite.png" : {
+			"md5" : "9cfffa5e8f2456bb1ecc2ce50dc42fc1"
+		}, 
+		"res/ExActivitylayer.csb" : {
+			"md5" : "3e7ba05fb21a5c15d9425a0cd76a176b"
+		}, 
+		"res/ExchangeGold.csb" : {
+			"md5" : "34e28ce15cb2f937aae11972d361f2d9"
+		}, 
+		"res/FangKaYu.csb" : {
+			"md5" : "c7802b2021e387b4caeeeaaa756d7a07"
+		}, 
+		"res/FangKaYuJieSuan.csb" : {
+			"md5" : "c5e51757e11a902b3727547f45cf8432"
+		}, 
+		"res/FinalReport.csb" : {
+			"md5" : "0ad152f2baa0144e34448880cdf58e5b"
+		}, 
+		"res/FixMsgCell.csb" : {
+			"md5" : "7cad3e13d96062cc39d31c9a957c164a"
+		}, 
+		"res/fonts/DFYuanW7-GB2312.ttf" : {
+			"md5" : "8b82bb8055bf8553aa1d8e38a3290bfe"
+		}, 
+		"res/fonts/font_number_1.png" : {
+			"md5" : "dafe9b6a75b93ef1f0ff9c3936658ca2"
+		}, 
+		"res/fonts/font_number_2.png" : {
+			"md5" : "cd41659e3e0da79a26a6f975c0bc0942"
+		}, 
+		"res/fonts/font_number_3.png" : {
+			"md5" : "801e5b05f620052e11cbd4d95949eabf"
+		}, 
+		"res/FriendEvaluation.csb" : {
+			"md5" : "1d377aefa9f22c58aab5a127c5fe7851"
+		}, 
+		"res/FriendEvaluationCell.csb" : {
+			"md5" : "cb5dfe812dc43060794eaf04048c61ef"
+		}, 
+		"res/GetRoomCard.csb" : {
+			"md5" : "e60a18a2db7757352bb3f59830bd37d7"
+		}, 
+		"res/GMCheckHistory.csb" : {
+			"md5" : "54f0fbc9f866ae31723b961fc418821a"
+		}, 
+		"res/HelpScene.csb" : {
+			"md5" : "77c5f4262d67fe864f72376514ea1c03"
+		}, 
+		"res/HistoryCell.csb" : {
+			"md5" : "32a667a4c833faed33584987e04b8f2f"
+		}, 
+		"res/HistoryDetail.csb" : {
+			"md5" : "0935b175ed23e25185b9ef7b9e3d11e3"
+		}, 
+		"res/HistoryDetailCell.csb" : {
+			"md5" : "40172c15bcefc3d926646e602299455e"
+		}, 
+		"res/HistoryRecord.csb" : {
+			"md5" : "b62e28ac9eeae8bfd928cd061755e483"
+		}, 
+		"res/huatong.csb" : {
+			"md5" : "4a051ff0bd4111741b9542f18c1e5ce9"
+		}, 
+		"res/icon.png" : {
+			"md5" : "4928050926c49ae0223aa54d48713eae"
+		}, 
+		"res/invitePlayerNode.csb" : {
+			"md5" : "576fb51695c273b9b00e861d443f77e2"
+		}, 
+		"res/InviteRewardBtn.csb" : {
+			"md5" : "1be7d2b052b3c36893ee1da1deb7bef2"
+		}, 
+		"res/InviteRewardDialog.csb" : {
+			"md5" : "f6d38df64c4d861443ffd8727a647a08"
+		}, 
+		"res/JoinRoom.csb" : {
+			"md5" : "5de4e09682927b62d3ec8acd3bd05ef9"
+		}, 
+		"res/LoadingTips.csb" : {
+			"md5" : "0fd104be9b099cb9bab4e74109bfcb9f"
+		}, 
+		"res/Login.csb" : {
+			"md5" : "c8bc37bbe5ed05f3a7653bf115529bc3"
+		}, 
+		"res/LogPanel.csb" : {
+			"md5" : "64a48c053e4107a5c31743e4ed1ab128"
+		}, 
+		"res/MainScene_new.csb" : {
+			"md5" : "fbbe4015e03b11308ab770f3f159ff69"
+		}, 
+		"res/MarqueeBar.csb" : {
+			"md5" : "7b8c62232366f4da7b688faeec15a986"
+		}, 
+		"res/MessageScene.csb" : {
+			"md5" : "a35f01c7d00547cc054001ebcdf58315"
+		}, 
+		"res/NewyearActivity.csb" : {
+			"md5" : "070753d27501b7230a22075a37ecc1dc"
+		}, 
+		"res/NoticeBuyCard.csb" : {
+			"md5" : "7e6f3dd371eb9c618dcdaa046ff5ab1d"
+		}, 
+		"res/NoticeTips.csb" : {
+			"md5" : "4152d70c5d78e81eb048d1f7c30ba50a"
+		}, 
+		"res/NoticeTips_Update.csb" : {
+			"md5" : "12cdf674691aed3f6b1f7a5ef621f725"
+		}, 
+		"res/OtherGameEnter.csb" : {
+			"md5" : "f0faa2e163b64c112d426d85b0ce4587"
+		}, 
+		"res/PlayerInfoTips.csb" : {
+			"md5" : "6aa29c7732be13c186422fa6b6e08422"
+		}, 
+		"res/playscene/BaoJiao.csb" : {
+			"md5" : "2e6f0bce6bfbaa4cf6fcb302d2040c75"
+		}, 
+		"res/playscene/IPSame.csb" : {
+			"md5" : "84604dbf6dc2be767bdc8ddf48b97ce0"
+		}, 
+		"res/playscene/Saizi.csb" : {
+			"md5" : "d7b5db523cf316a916298b0272b1fa64"
+		}, 
+		"res/playscene/SmallToast.csb" : {
+			"md5" : "90e065a5a581a9c4cf8e1f2704a5d920"
+		}, 
+		"res/playscene/UserDingQueIng.csb" : {
+			"md5" : "0e5e49d9b8691beffda4f3397c89ae6d"
+		}, 
+		"res/PlaySceneDDH.csb" : {
+			"md5" : "2c9cd2b8ceb4e514803bd4450b8dbe82"
+		}, 
+		"res/PlaySceneDY.csb" : {
+			"md5" : "6606999c691d10bfe117ead85b8bebb4"
+		}, 
+		"res/PlaySceneGA.csb" : {
+			"md5" : "c5f0266bae259b3b55969aaefbb08777"
+		}, 
+		"res/PlaySceneGold.csb" : {
+			"md5" : "beed261fff55f686dd89ec017951a92e"
+		}, 
+		"res/PlaySceneLS.csb" : {
+			"md5" : "37b3a4268922efea6436372cb3629baa"
+		}, 
+		"res/PlaySceneLZ.csb" : {
+			"md5" : "525683d303d3cc723c7d3c3d5ee3723c"
+		}, 
+		"res/PlaySceneMatch.csb" : {
+			"md5" : "d1318eb9ce45e92d96be4a14e507bfc2"
+		}, 
+		"res/PlaySceneMY.csb" : {
+			"md5" : "a812ef9689abeae8683666261d2b4cc5"
+		}, 
+		"res/PlaySceneNC.csb" : {
+			"md5" : "9529b787e4168c4000fa010038497e3e"
+		}, 
+		"res/PlaySceneNeiJiang.csb" : {
+			"md5" : "7a00a422db2eb56ef32d82f5f27617a8"
+		}, 
+		"res/PlaySceneNJ_SEV.csb" : {
+			"md5" : "e2bb93b8f64800f3a67bac457a52902d"
+		}, 
+		"res/PlaySceneNJ_TEN.csb" : {
+			"md5" : "e80e3270d9d14cc7558a38b81f336d1f"
+		}, 
+		"res/PlaySceneNJ_THR.csb" : {
+			"md5" : "bb734bb75771cd090276c84f02e81b9e"
+		}, 
+		"res/PlaySceneTX.csb" : {
+			"md5" : "768b074d9ff1c2ad1c923859f359994e"
+		}, 
+		"res/PlaySceneTXS.csb" : {
+			"md5" : "862287d960c30307cd3b8212b53985d0"
+		}, 
+		"res/PlaySceneWZ.csb" : {
+			"md5" : "c25d8878f5c147f63ffb1b7e36d910f6"
+		}, 
+		"res/PlaySceneXL.csb" : {
+			"md5" : "139f331ee72b6427a5015109a38b33db"
+		}, 
+		"res/PlaySceneXZ.csb" : {
+			"md5" : "0ab7e51bf67e02265ad489235ed7fa7c"
+		}, 
+		"res/PlaySceneYA.csb" : {
+			"md5" : "0e974dfb75f7083ae1b79ac285bd9474"
+		}, 
+		"res/PlaySceneYB.csb" : {
+			"md5" : "f7dffa2a55e78ab9e3c0dd318a856cae"
+		}, 
+		"res/PlaySceneZG.csb" : {
+			"md5" : "526871f00d5d9052c2cb4b9161014ac0"
+		}, 
+		"res/RealName.csb" : {
+			"md5" : "30e1efd69d9524e073c98f981a0416ac"
+		}, 
+		"res/RechargeShop.csb" : {
+			"md5" : "5aba62fa29ef3482af06a20dd592f3c9"
+		}, 
+		"res/ReplayLayer.csb" : {
+			"md5" : "b52e86cb5078c0fad73ebe50cc7413e1"
+		}, 
+		"res/ReplayLayer_MY.csb" : {
+			"md5" : "2d169dbff7401092ca2e8098315bd1b4"
+		}, 
+		"res/ReplayLayer_YB.csb" : {
+			"md5" : "fec0a50bb56148cf233051fddc0c0dbd"
+		}, 
+		"res/ReplayLayerNeiJiang.csb" : {
+			"md5" : "b59db59b6beacffefee209b4ad02de93"
+		}, 
+		"res/ReplayLayerNJ_SEV.csb" : {
+			"md5" : "2ed99add79d241058375a012465eb297"
+		}, 
+		"res/ReplayLayerNJ_TEN.csb" : {
+			"md5" : "053094008795954f34005a249932b603"
+		}, 
+		"res/ReplayLayerNJ_THR.csb" : {
+			"md5" : "4d7ee2cd0568de19e2b38baed8e2564a"
+		}, 
+		"res/ReplayLayerSR.csb" : {
+			"md5" : "79851ef32373c0ccf5eb13a2a6e1b5d7"
+		}, 
+		"res/ReplayLayerXL.csb" : {
+			"md5" : "f4d1d2382a895d1174457b0653deae14"
+		}, 
+		"res/RoundReport.csb" : {
+			"md5" : "0a788c8e4bd5828f8a29d2b1fed1cf82"
+		}, 
+		"res/RoundReport_Gold.csb" : {
+			"md5" : "a248caf6385c131e4fa57a0404ea7582"
+		}, 
+		"res/RoundReport_MY.csb" : {
+			"md5" : "26e3206712d17e8306395da5d211f2ae"
+		}, 
+		"res/sd/biankuang.plist" : {
+			"md5" : "b22b35e3f6c9f65f66415af7c432d3c3"
+		}, 
+		"res/sd/biankuang.png" : {
+			"md5" : "f3971d1cb1aaba261b001113bcc321ef"
+		}, 
+		"res/sd/fangka.png" : {
+			"md5" : "91f2a49f57801c236f70e38e97266ad6"
+		}, 
+		"res/sd/fangkayu.plist" : {
+			"md5" : "d1126f6af3bb92c7bf99b23888640f9b"
+		}, 
+		"res/sd/glow_001.png" : {
+			"md5" : "93280b5f9b07dd22582a27bd98dc2354"
+		}, 
+		"res/sd/glow_002.png" : {
+			"md5" : "22ba8da46202c20d2ca6139fa61011c6"
+		}, 
+		"res/sd/guangfengxiayu.plist" : {
+			"md5" : "3e478e6a30c0dba256e6fe3773fce1a6"
+		}, 
+		"res/sd/guangfengxiayu.png" : {
+			"md5" : "70ef193797cfdcb6d7f071276e24b044"
+		}, 
+		"res/sd/guangyun.png" : {
+			"md5" : "4e3fdd2260fa2c2ea23f08b1035a9520"
+		}, 
+		"res/sd/images/activity_item_icon.plist" : {
+			"md5" : "871a92867e42e3e00503cd4d45d43190"
+		}, 
+		"res/sd/images/activity_item_icon.png" : {
+			"md5" : "4b4dbf6b238665e7c44272d97a763372"
+		}, 
+		"res/sd/images/activity_motherday.plist" : {
+			"md5" : "7609a878e5031461754cb761642870e1"
+		}, 
+		"res/sd/images/activity_motherday.png" : {
+			"md5" : "b836cf19c52b4b47de4ee630ad102774"
+		}, 
+		"res/sd/images/ActivityDragonBoat.plist" : {
+			"md5" : "c3c1d5f5ef7fc392a96fac6fa5131a86"
+		}, 
+		"res/sd/images/ActivityDragonBoat.png" : {
+			"md5" : "f96fbacceccb6a351babedfac83e16bd"
+		}, 
+		"res/sd/images/ActivityInvite.plist" : {
+			"md5" : "65366c9668b8e0ed06a51e5686aa615c"
+		}, 
+		"res/sd/images/ActivityInvite.png" : {
+			"md5" : "f03c1a4fa5dbca73324a0bc0f73a51aa"
+		}, 
+		"res/sd/images/ActivityRecruitRes.plist" : {
+			"md5" : "12e86e034e092a1b065b6acfb4fe2ba0"
+		}, 
+		"res/sd/images/ActivityRecruitRes.png" : {
+			"md5" : "03cec7d2038829a16b5346afdf5897d8"
+		}, 
+		"res/sd/images/anim_mjbar.plist" : {
+			"md5" : "5ca26d9414b5f02c12db051e3d747982"
+		}, 
+		"res/sd/images/anim_mjbar.pvr.ccz" : {
+			"md5" : "756f63fe3c15b84e4f2d17284020d16f"
+		}, 
+		"res/sd/images/biankuang.plist" : {
+			"md5" : "4bb5f565c031a230b78eea7d90429855"
+		}, 
+		"res/sd/images/biankuang.png" : {
+			"md5" : "fa6dc8d37c4cdad78746e46518ea225b"
+		}, 
+		"res/sd/images/Big_mahjong_tiles.plist" : {
+			"md5" : "831676e2ca617feb1727b6e56bcc18c2"
+		}, 
+		"res/sd/images/Big_mahjong_tiles.png" : {
+			"md5" : "4b73b7e1522705e3605eda232afac1d7"
+		}, 
+		"res/sd/images/Big_mahjonghn_tiles_sr.plist" : {
+			"md5" : "06884f0628b6f842d02965be409fadeb"
+		}, 
+		"res/sd/images/Big_mahjonghn_tiles_sr.png" : {
+			"md5" : "e5b522794f7b886483d5b3f8ed145fec"
+		}, 
+		"res/sd/images/changshamjbtn.plist" : {
+			"md5" : "461e433155f3e68799921f7941a05a63"
+		}, 
+		"res/sd/images/changshamjbtn.png" : {
+			"md5" : "4fc31c1afd3f830232f2f1e7b74b65f6"
+		}, 
+		"res/sd/images/chat.plist" : {
+			"md5" : "47744793abd37a7b23b8eaf30714a04f"
+		}, 
+		"res/sd/images/chat.png" : {
+			"md5" : "08a39aaca8aa1548040ae9ffeeb6e0a2"
+		}, 
+		"res/sd/images/createroom.plist" : {
+			"md5" : "88dc7725e84da6c71b915289cad45bcc"
+		}, 
+		"res/sd/images/createroom.png" : {
+			"md5" : "f0af7a17bcce196b55bdf59ab15266bc"
+		}, 
+		"res/sd/images/emoji.plist" : {
+			"md5" : "866479c0e9bebe237bb4944d49dfdca3"
+		}, 
+		"res/sd/images/emoji.pvr.ccz" : {
+			"md5" : "0f141c9176dbc5662c377daf82dac6bf"
+		}, 
+		"res/sd/images/GameEnd.plist" : {
+			"md5" : "362b8be68282088572601879baa42608"
+		}, 
+		"res/sd/images/GameEnd.png" : {
+			"md5" : "87ea12646e436ef5e342794ac067c859"
+		}, 
+		"res/sd/images/guafeng.png" : {
+			"md5" : "1fe4ae417a11d32baf1d9ed4dbe74be4"
+		}, 
+		"res/sd/images/guangfengxiayu.plist" : {
+			"md5" : "3e478e6a30c0dba256e6fe3773fce1a6"
+		}, 
+		"res/sd/images/guangfengxiayu.png" : {
+			"md5" : "70ef193797cfdcb6d7f071276e24b044"
+		}, 
+		"res/sd/images/history_record.plist" : {
+			"md5" : "46cb3d41c1efe98ac2242540ccfb7c21"
+		}, 
+		"res/sd/images/history_record.png" : {
+			"md5" : "a96931c29f3ec6e1875420971826cb5a"
+		}, 
+		"res/sd/images/huodong_effect.plist" : {
+			"md5" : "6bb017068d12e2c4e0cf7f6e8f4f514d"
+		}, 
+		"res/sd/images/huodong_effect.png" : {
+			"md5" : "d7af4e0e73670b35b03e52996e593ed8"
+		}, 
+		"res/sd/images/InviteReward/fk_di.png" : {
+			"md5" : "1a962d27b59b2f58ddd81b8a789398ad"
+		}, 
+		"res/sd/images/InviteReward/fk_golw.png" : {
+			"md5" : "038752aa7a909de15fc436ec0368a1b0"
+		}, 
+		"res/sd/images/InviteReward/fk_golw_02.png" : {
+			"md5" : "f3fecaa99a16e8920d7cca705dda385d"
+		}, 
+		"res/sd/images/InviteReward/fk_k_tx.plist" : {
+			"md5" : "da4efeb17c874b2aec9e91ab086acb46"
+		}, 
+		"res/sd/images/InviteReward/fk_k_tx.png" : {
+			"md5" : "6f392c5e9d9b583c2a268f34196fac2c"
+		}, 
+		"res/sd/images/InviteReward/fk_ka.png" : {
+			"md5" : "34044eb2e77496c4dd43e029be45a7bc"
+		}, 
+		"res/sd/images/InviteReward/fk_z_tx.plist" : {
+			"md5" : "e165a04acba7d37e902306ac190606b3"
+		}, 
+		"res/sd/images/InviteReward/fk_z_tx.png" : {
+			"md5" : "99aa7421cf73f9d6085d9db97f1ecb43"
+		}, 
+		"res/sd/images/InviteReward/fk_zi.png" : {
+			"md5" : "26f9e6cac591b7e7f5366c4b74a2963b"
+		}, 
+		"res/sd/images/InviteReward/invitemffangka.png" : {
+			"md5" : "452324ab54502e1f299222e1dd237fa4"
+		}, 
+		"res/sd/images/InviteReward/lizi_00080.png" : {
+			"md5" : "0f889aeb5ed3512597773e4544448c0f"
+		}, 
+		"res/sd/images/jiantou.png" : {
+			"md5" : "866f9e0741372170ffdfa8d37755b57a"
+		}, 
+		"res/sd/images/JoinRoom.plist" : {
+			"md5" : "98205ca6a5749eac07802d4df509684d"
+		}, 
+		"res/sd/images/JoinRoom.png" : {
+			"md5" : "de382781d14128916955532ab8c2a615"
+		}, 
+		"res/sd/images/kaiju.plist" : {
+			"md5" : "5102c9fddd08da74a07b1b87ac4ecc15"
+		}, 
+		"res/sd/images/kaiju.png" : {
+			"md5" : "46ec679ce1bfb5318f1c036a13f5d77c"
+		}, 
+		"res/sd/images/loading.plist" : {
+			"md5" : "8e6a5ab80a720918f5b520325a49dc6e"
+		}, 
+		"res/sd/images/loading.pvr.ccz" : {
+			"md5" : "03b26da9b5b76bd355ac4c991d912c7c"
+		}, 
+		"res/sd/images/LoginScene.plist" : {
+			"md5" : "8ea0e7315cac5739ef374d7d8ebead0e"
+		}, 
+		"res/sd/images/LoginScene.png" : {
+			"md5" : "be130e3c3d73cc40bd63d126ea349227"
+		}, 
+		"res/sd/images/mahjong_tiles.plist" : {
+			"md5" : "29322e00229d71a5d133e774e950b60d"
+		}, 
+		"res/sd/images/mahjong_tiles.pvr.ccz" : {
+			"md5" : "41eae8361acda1d3ba449b561618e713"
+		}, 
+		"res/sd/images/mahjonghn_tiles_sr.plist" : {
+			"md5" : "a74892b9a9579ffeb8bb7c1b984f86ac"
+		}, 
+		"res/sd/images/mahjonghn_tiles_sr.pvr.ccz" : {
+			"md5" : "ee0183dc1c5e9ed87bd530e5f2fccea2"
+		}, 
+		"res/sd/images/MainScene_new.plist" : {
+			"md5" : "1ebea417dcea928989a759e0732e61ce"
+		}, 
+		"res/sd/images/MainScene_new.png" : {
+			"md5" : "a698efbb67daf14dc731d87740fe1161"
+		}, 
+		"res/sd/images/NewyearActivity.plist" : {
+			"md5" : "ca73001f0412037b4d6042a1d462cc00"
+		}, 
+		"res/sd/images/NewyearActivity.png" : {
+			"md5" : "583c1f40c28cf2e99ce24685c274fcfa"
+		}, 
+		"res/sd/images/otherImages/btn_check1.png" : {
+			"md5" : "58ed50441631b0a5e3d7cfc996196eb0"
+		}, 
+		"res/sd/images/otherImages/btn_checkbox1.png" : {
+			"md5" : "02cba6b53c6f32109192a7751e1f3983"
+		}, 
+		"res/sd/images/otherImages/caisefangshe.png" : {
+			"md5" : "6477c019fb804b668d4b987567eb58bf"
+		}, 
+		"res/sd/images/otherImages/cs004.png" : {
+			"md5" : "02084a5e9a4560dc7956350223343a1b"
+		}, 
+		"res/sd/images/otherImages/cs005.png" : {
+			"md5" : "da70fd52944086e589bed59c18b14147"
+		}, 
+		"res/sd/images/otherImages/cs006.png" : {
+			"md5" : "a5a10f26379c4ba75b055894a41d890c"
+		}, 
+		"res/sd/images/otherImages/cs016.png" : {
+			"md5" : "dc98404afe13ae0a37ee21603f6dbb64"
+		}, 
+		"res/sd/images/otherImages/dianliang.png" : {
+			"md5" : "38e3623054126b7bf4601891dcc7c7ef"
+		}, 
+		"res/sd/images/otherImages/dianliang2.png" : {
+			"md5" : "b68d3635216960a55b5593680f09036c"
+		}, 
+		"res/sd/images/otherImages/dikuang.png" : {
+			"md5" : "74e3758bb80492b2491041554b2c649e"
+		}, 
+		"res/sd/images/otherImages/fangka.png" : {
+			"md5" : "98db31644f30b8405561c7e6239eb5de"
+		}, 
+		"res/sd/images/otherImages/fangsheguang.png" : {
+			"md5" : "22cd4f49b4740ed16b60cb699f35d6ac"
+		}, 
+		"res/sd/images/otherImages/fanhui.png" : {
+			"md5" : "65d7feea5b9081df381c5dae16a03240"
+		}, 
+		"res/sd/images/otherImages/fenxiangbg.png" : {
+			"md5" : "cea170dd232948368444007e7bf1d253"
+		}, 
+		"res/sd/images/otherImages/float_text_bg.png" : {
+			"md5" : "d2a64f2003baa758db01a321fc01cd64"
+		}, 
+		"res/sd/images/otherImages/gangkuang.png" : {
+			"md5" : "240295c3e4e4846cd458fe4d174aeafd"
+		}, 
+		"res/sd/images/otherImages/gaoguangdanzhen.png" : {
+			"md5" : "634a5593b16c4ee52f62c1a9bb0a1bf4"
+		}, 
+		"res/sd/images/otherImages/GF_367.png" : {
+			"md5" : "154b488af095b36abf68dea2832e66d2"
+		}, 
+		"res/sd/images/otherImages/go.png" : {
+			"md5" : "0ec55bb1937e5003a4a53f6d61621be2"
+		}, 
+		"res/sd/images/otherImages/gongxi.png" : {
+			"md5" : "b023621309d97928a372d71ab5e1d4b4"
+		}, 
+		"res/sd/images/otherImages/gongxihuode2.png" : {
+			"md5" : "d55f5655f41a25c2c647ac807c2cfdfe"
+		}, 
+		"res/sd/images/otherImages/haoyouqun.png" : {
+			"md5" : "a6fffe2fabe5efbff61192dec611ceb4"
+		}, 
+		"res/sd/images/otherImages/haoyun.png" : {
+			"md5" : "eaddd8c1a2f6114bee3e9d17c0f42d99"
+		}, 
+		"res/sd/images/otherImages/heisebantou01.png" : {
+			"md5" : "fd63b49718062de7fa029ae66920cb24"
+		}, 
+		"res/sd/images/otherImages/huode.png" : {
+			"md5" : "7ddb232800f1f2c1f4e0fb86fbbb50b7"
+		}, 
+		"res/sd/images/otherImages/jiangsu.png" : {
+			"md5" : "626ef64d81a23764c0479b7f692d9034"
+		}, 
+		"res/sd/images/otherImages/jidutiaod.png" : {
+			"md5" : "5a91406bfd88e45107215708d9fd81e7"
+		}, 
+		"res/sd/images/otherImages/jidutiaos.png" : {
+			"md5" : "04049c308ee2b81805ea536b8d19c7f5"
+		}, 
+		"res/sd/images/otherImages/kongdian.png" : {
+			"md5" : "b731d87caa514b55516e950f3536571c"
+		}, 
+		"res/sd/images/otherImages/logo.jpg" : {
+			"md5" : "6381e1d3137a8c779ec88e286f358e89"
+		}, 
+		"res/sd/images/otherImages/mahjongDeskBG.png" : {
+			"md5" : "e4d54542511d77fd588976ca2a19ac0d"
+		}, 
+		"res/sd/images/otherImages/paohuzi.png" : {
+			"md5" : "f4177e743f578f6f25e86fb678005f4c"
+		}, 
+		"res/sd/images/otherImages/pengyouquan.png" : {
+			"md5" : "08ea799a07d9eb3c226b83830ce94fa8"
+		}, 
+		"res/sd/images/otherImages/pt_diguang.png" : {
+			"md5" : "97eb4d9ce3efaa8d017baebb19e89b25"
+		}, 
+		"res/sd/images/otherImages/public_btn_nook.png" : {
+			"md5" : "341d1c90a1bf373f8813a81da0250c7e"
+		}, 
+		"res/sd/images/otherImages/queding.png" : {
+			"md5" : "a23fd39568cc053b5eb801b05ba6197f"
+		}, 
+		"res/sd/images/otherImages/replayGesture.png" : {
+			"md5" : "b4ca802b87a9e1540ffb5af14167f01a"
+		}, 
+		"res/sd/images/otherImages/sichuanxinnian.png" : {
+			"md5" : "9e9cf59a3cd26a634e65b957bc6d67a0"
+		}, 
+		"res/sd/images/otherImages/tipsbg.png" : {
+			"md5" : "49df511ea9ab15ec1925edd55a70e8a0"
+		}, 
+		"res/sd/images/otherImages/tubao_xianlaibuyu.png" : {
+			"md5" : "4d43ba8891fe37023c1cdd067c7d6a8f"
+		}, 
+		"res/sd/images/otherImages/xinhao001.png" : {
+			"md5" : "38b0f447d4773a46c17b174ae5922a67"
+		}, 
+		"res/sd/images/otherImages/xinhao002.png" : {
+			"md5" : "5d969ce04c6164ce3ec02618007551a9"
+		}, 
+		"res/sd/images/otherImages/xinhao004.png" : {
+			"md5" : "585782bb37bd29e7dc06a4b3fcc3f47f"
+		}, 
+		"res/sd/images/otherImages/xinhao005.png" : {
+			"md5" : "ee3ef4f05299eaa663c3dd90e1a441b4"
+		}, 
+		"res/sd/images/otherImages/xinhao006.png" : {
+			"md5" : "a31e8c1c470d82be5d9ba8b2d3050242"
+		}, 
+		"res/sd/images/otherImages/xinhao1.png" : {
+			"md5" : "5ba19ab698e7db4097597b29a1c5451f"
+		}, 
+		"res/sd/images/otherImages/xinhao2.png" : {
+			"md5" : "e49aeba545bac85c183f2cbdb99e4786"
+		}, 
+		"res/sd/images/otherImages/xinhao3.png" : {
+			"md5" : "402951b5e7aab9433fed5f40fc167cd5"
+		}, 
+		"res/sd/images/otherImages/xinhao4.png" : {
+			"md5" : "96f61d5282e83b6fa3728d9dbd1481ef"
+		}, 
+		"res/sd/images/otherImages/yunnanbutton.png" : {
+			"md5" : "ddacc8222cd45dc89bd3edc089c70a78"
+		}, 
+		"res/sd/images/otherImages/zhuanpan1.png" : {
+			"md5" : "c98bb6860ea59cdc9828f935e39faba1"
+		}, 
+		"res/sd/images/otherImages/zhuanpanye.png" : {
+			"md5" : "6a7942e3d2cc9fa992308e160145bfb1"
+		}, 
+		"res/sd/images/playScene.plist" : {
+			"md5" : "352e0c1b9d12549db95cf73d767b8da4"
+		}, 
+		"res/sd/images/playScene.png" : {
+			"md5" : "01f08f268cd648248d9145db0aa8f7cc"
+		}, 
+		"res/sd/images/PopupScene.plist" : {
+			"md5" : "f8f54e869ff7542f059020af27bcd708"
+		}, 
+		"res/sd/images/PopupScene.png" : {
+			"md5" : "d0e053797990656cdc3d8327128ae9cc"
+		}, 
+		"res/sd/images/rechargeShop.plist" : {
+			"md5" : "b02a2e7dc18e123d2833aeb91026ab3e"
+		}, 
+		"res/sd/images/rechargeShop.png" : {
+			"md5" : "24c36332691e41ac924d2d054a3e5bf5"
+		}, 
+		"res/sd/images/replayBtns.plist" : {
+			"md5" : "ab272bf281cdd1cf46760a1ba97463cf"
+		}, 
+		"res/sd/images/replayBtns.pvr.ccz" : {
+			"md5" : "f373cc5bdb9e4e68aeeed92a628ee4e9"
+		}, 
+		"res/sd/images/saoguang.plist" : {
+			"md5" : "10e026eb03e6f5f181c1e49bb1a1faa8"
+		}, 
+		"res/sd/images/saoguang.png" : {
+			"md5" : "65951846a7ca493121c1389ed6000f75"
+		}, 
+		"res/sd/images/setting.plist" : {
+			"md5" : "5bc37c97fb0c9052dc44116905d9a6eb"
+		}, 
+		"res/sd/images/setting.png" : {
+			"md5" : "42e5721f11fb1d9af2e55b38c14642f1"
+		}, 
+		"res/sd/images/shaizi_dianshu.plist" : {
+			"md5" : "42ae8f2217ad90a504c674f317420328"
+		}, 
+		"res/sd/images/shaizi_dianshu.png" : {
+			"md5" : "f9878ae3d84e00c4d72f779e964d2fc3"
+		}, 
+		"res/sd/images/ShareSelect.plist" : {
+			"md5" : "aed8f8bfeca315b83ea2799ad2ce8ed5"
+		}, 
+		"res/sd/images/ShareSelect.png" : {
+			"md5" : "5308142efe1b76627683296f76a0bfd9"
+		}, 
+		"res/sd/images/signalBattery.plist" : {
+			"md5" : "721f8990cd0f075e2292894f513d7170"
+		}, 
+		"res/sd/images/signalBattery.pvr.ccz" : {
+			"md5" : "4de604e5ef6862a607439ef6fd9bde8c"
+		}, 
+		"res/sd/images/SZ.plist" : {
+			"md5" : "c4fe1e4514bcdd245e82331cce91f0e3"
+		}, 
+		"res/sd/images/SZ.png" : {
+			"md5" : "5285500137f7e60fb28091db0ee96584"
+		}, 
+		"res/sd/images/update.plist" : {
+			"md5" : "7b18d5f6196ed7fa8687bbc6bea2f2e0"
+		}, 
+		"res/sd/images/update.png" : {
+			"md5" : "f13effcdc1729447b165b6a375d30299"
+		}, 
+		"res/sd/images/VisitorsLogin.plist" : {
+			"md5" : "f475f57e211789db7ba31a4822cac205"
+		}, 
+		"res/sd/images/VisitorsLogin.png" : {
+			"md5" : "22abb8ff1de2f724a5bfb7e946f2771a"
+		}, 
+		"res/sd/images/weixin.plist" : {
+			"md5" : "e9d661a57b868d896288be4a809a6adc"
+		}, 
+		"res/sd/images/weixin.png" : {
+			"md5" : "964544e6678ad68454aaab082ff0b4d3"
+		}, 
+		"res/sd/images/xiayu.png" : {
+			"md5" : "c4483f1304acc9354537d3dcd52ff581"
+		}, 
+		"res/sd/images/xinnian_denglong.plist" : {
+			"md5" : "8b50e7253e92912f1f24b116df508869"
+		}, 
+		"res/sd/images/xinnian_denglong.png" : {
+			"md5" : "b5f733ec7fac0c733033e6f83c8b2a91"
+		}, 
+		"res/sd/images/ZMD.plist" : {
+			"md5" : "90bce4421c9f8002d0f30bcad743dd6f"
+		}, 
+		"res/sd/images/ZMD.png" : {
+			"md5" : "d59f6642c5b018a0de8a1ebe24fafa44"
+		}, 
+		"res/sd/saoguang.plist" : {
+			"md5" : "720a8f8fc2cd72c60ecac82f5a9928ed"
+		}, 
+		"res/sd/saoguang.png" : {
+			"md5" : "6eb41f4a9b4563a889893b789fdea74a"
+		}, 
+		"res/sd/sichuan_zhu_fangkatubiao_001.png" : {
+			"md5" : "c2b28fc9b1670b336e231a5b0055b222"
+		}, 
+		"res/sd/xuanzhuan.png" : {
+			"md5" : "23c5f7c70a8c742ddcb39ebb36c7a7f5"
+		}, 
+		"res/Setting.csb" : {
+			"md5" : "322f7d459c958fc19cb62019834d0550"
+		}, 
+		"res/sfx/bgm1.mp3" : {
+			"md5" : "a7efed765c103d2eef9bf5616133fa01"
+		}, 
+		"res/sfx/bgm2.mp3" : {
+			"md5" : "ab914dda9960b5fbc5101b0530918adb"
+		}, 
+		"res/sfx/common/audio_button_click.mp3" : {
+			"md5" : "ae85faeb38961aa877b8492a4188dd4b"
+		}, 
+		"res/sfx/common/audio_card_click.mp3" : {
+			"md5" : "7a5710a4d450962ebe2515815171f112"
+		}, 
+		"res/sfx/common/audio_card_out.mp3" : {
+			"md5" : "8f4a1126b9a74d5cd8493b69f47000a0"
+		}, 
+		"res/sfx/common/audio_deal_card.mp3" : {
+			"md5" : "079e13b83d2ba5b1829840e32284a1e5"
+		}, 
+		"res/sfx/common/audio_enter.mp3" : {
+			"md5" : "dd8ff5f6f3bc4c7dd9b80a8364ff8cd7"
+		}, 
+		"res/sfx/common/audio_left.mp3" : {
+			"md5" : "1609cc4819bbf462a1abee2a5da2dc62"
+		}, 
+		"res/sfx/common/audio_liuju.mp3" : {
+			"md5" : "adaa43df75b8e73e03de59aef3337f15"
+		}, 
+		"res/sfx/common/audio_lose.mp3" : {
+			"md5" : "e5aef66df60a2753fb9c1b932517800b"
+		}, 
+		"res/sfx/common/audio_outpai.mp3" : {
+			"md5" : "9402cb34db3d24dc7395eea620ce0fd9"
+		}, 
+		"res/sfx/common/audio_ready.mp3" : {
+			"md5" : "fc5358d28fb9a3287bf17ceef192e070"
+		}, 
+		"res/sfx/common/audio_win.mp3" : {
+			"md5" : "d452cfbfc973184a4dbcdf6e3e4993bc"
+		}, 
+		"res/sfx/common/guafeng.mp3" : {
+			"md5" : "3cf85941195b33660c4d5e0843e88b78"
+		}, 
+		"res/sfx/common/timeup_alarm.mp3" : {
+			"md5" : "e43786a9323afecd71c5667368426ae7"
+		}, 
+		"res/sfx/common/xiayu.mp3" : {
+			"md5" : "0aea455fb419394d14899aa23d1b14c4"
+		}, 
+		"res/sfx/man/bupiao.mp3" : {
+			"md5" : "85737985872aa346a94a69e2235971a9"
+		}, 
+		"res/sfx/man/chi.mp3" : {
+			"md5" : "a9a2c0e5d10c43444957f8871763f2aa"
+		}, 
+		"res/sfx/man/fei.mp3" : {
+			"md5" : "ccf52eebb3c6d003786e111fa258fef8"
+		}, 
+		"res/sfx/man/fix_msg_1.mp3" : {
+			"md5" : "c4872cb2652a3b44d0eb4c90081b5f5c"
+		}, 
+		"res/sfx/man/fix_msg_10.mp3" : {
+			"md5" : "70a359e1aef71ec9f099dcd4cf88049c"
+		}, 
+		"res/sfx/man/fix_msg_11.mp3" : {
+			"md5" : "70a359e1aef71ec9f099dcd4cf88049c"
+		}, 
+		"res/sfx/man/fix_msg_2.mp3" : {
+			"md5" : "9ad9cb21c348e8616b8e2c46f8acec58"
+		}, 
+		"res/sfx/man/fix_msg_3.mp3" : {
+			"md5" : "90a70f62e9dab8e7f5ce324a4802d027"
+		}, 
+		"res/sfx/man/fix_msg_4.mp3" : {
+			"md5" : "9e6718f10eca2e709a0295f20b81b894"
+		}, 
+		"res/sfx/man/fix_msg_5.mp3" : {
+			"md5" : "30d430a1b70e8792ad9b7d240e3dceb5"
+		}, 
+		"res/sfx/man/fix_msg_6.mp3" : {
+			"md5" : "3b1e37c9f7c53e8f849d796fc3883bf4"
+		}, 
+		"res/sfx/man/fix_msg_7.mp3" : {
+			"md5" : "26a941c8b73745e51cf3186d38dd64d0"
+		}, 
+		"res/sfx/man/fix_msg_8.mp3" : {
+			"md5" : "dabbe210be47e76df59d4f6aeb56bfb4"
+		}, 
+		"res/sfx/man/fix_msg_9.mp3" : {
+			"md5" : "9bcb6d752bc2a85e5ca117e691bf3336"
+		}, 
+		"res/sfx/man/gang.mp3" : {
+			"md5" : "2d0a8fcab0389b90819abe0ced8992c4"
+		}, 
+		"res/sfx/man/hu.mp3" : {
+			"md5" : "c33df562bb4f2cead85ea243f16abb4c"
+		}, 
+		"res/sfx/man/mjt1_1.mp3" : {
+			"md5" : "cb2f61ffef96917ece9256b9a5c928ad"
+		}, 
+		"res/sfx/man/mjt1_2.mp3" : {
+			"md5" : "87acd931a7aeaff62486682add874fcc"
+		}, 
+		"res/sfx/man/mjt1_3.mp3" : {
+			"md5" : "743effca217189caca77ad2f5b485e63"
+		}, 
+		"res/sfx/man/mjt1_4.mp3" : {
+			"md5" : "89e60ce22f1ce3f2ed885f0508fb7457"
+		}, 
+		"res/sfx/man/mjt1_5.mp3" : {
+			"md5" : "5384170e65dccc70ade705871804c413"
+		}, 
+		"res/sfx/man/mjt1_6.mp3" : {
+			"md5" : "daa125c411440f41cb83bbd46f64d097"
+		}, 
+		"res/sfx/man/mjt1_7.mp3" : {
+			"md5" : "99ba0f190c3266af38ee7ffc2b597380"
+		}, 
+		"res/sfx/man/mjt1_8.mp3" : {
+			"md5" : "111dadc33bb00783e4fcf9b15b99aaf4"
+		}, 
+		"res/sfx/man/mjt1_9.mp3" : {
+			"md5" : "9cd204abe4f43728c4c4dcf935d7e5b9"
+		}, 
+		"res/sfx/man/mjt2_1.mp3" : {
+			"md5" : "2f7e0d5a4c94dd5dd72e5f118f2d6e96"
+		}, 
+		"res/sfx/man/mjt2_2.mp3" : {
+			"md5" : "163319a9a7e302567f02114a97320d1c"
+		}, 
+		"res/sfx/man/mjt2_3.mp3" : {
+			"md5" : "7621ea91198e1ed8d30cf8dc85572e1e"
+		}, 
+		"res/sfx/man/mjt2_4.mp3" : {
+			"md5" : "76f5107aca250c7d841f57cb7d114e5b"
+		}, 
+		"res/sfx/man/mjt2_5.mp3" : {
+			"md5" : "111bd622a9e596b045590a6fbce9d75a"
+		}, 
+		"res/sfx/man/mjt2_6.mp3" : {
+			"md5" : "085ea4e7c8a1a27e47e4fb85f94d2db5"
+		}, 
+		"res/sfx/man/mjt2_7.mp3" : {
+			"md5" : "7e805ce415ce7699340a31a1e2200469"
+		}, 
+		"res/sfx/man/mjt2_8.mp3" : {
+			"md5" : "20c22c6723a3baa5c6fea9d16ee171c6"
+		}, 
+		"res/sfx/man/mjt2_9.mp3" : {
+			"md5" : "59c9e38e976e0242570b9083ee2db554"
+		}, 
+		"res/sfx/man/mjt3_1.mp3" : {
+			"md5" : "23843926a11c0067ef31364b29c77558"
+		}, 
+		"res/sfx/man/mjt3_2.mp3" : {
+			"md5" : "a55341736ecfcc16b7e1c8abca01f316"
+		}, 
+		"res/sfx/man/mjt3_3.mp3" : {
+			"md5" : "5385774f425b9489fc585cd498ae8f22"
+		}, 
+		"res/sfx/man/mjt3_4.mp3" : {
+			"md5" : "1c73ef8c97b96e9802a1db5f0141e294"
+		}, 
+		"res/sfx/man/mjt3_5.mp3" : {
+			"md5" : "8a47c1202ac38ab0e9209932c495fb79"
+		}, 
+		"res/sfx/man/mjt3_6.mp3" : {
+			"md5" : "6762d3ae5c12291611a806ba21164ac4"
+		}, 
+		"res/sfx/man/mjt3_7.mp3" : {
+			"md5" : "1c9a51ba480e05db98aa28826cefb608"
+		}, 
+		"res/sfx/man/mjt3_8.mp3" : {
+			"md5" : "b151b0bc35bbee7629aa6e2f8a51868a"
+		}, 
+		"res/sfx/man/mjt3_9.mp3" : {
+			"md5" : "27be849631d6e58ed38209d0cfc82d5e"
+		}, 
+		"res/sfx/man/mjt4_1.mp3" : {
+			"md5" : "582889b3bd85c8c7499419aabbce9bf6"
+		}, 
+		"res/sfx/man/mjt4_2.mp3" : {
+			"md5" : "d30b16e543a61f6a35827914919ea823"
+		}, 
+		"res/sfx/man/mjt4_3.mp3" : {
+			"md5" : "8c668cf375efa410243bf1c83704f385"
+		}, 
+		"res/sfx/man/mjt4_4.mp3" : {
+			"md5" : "c3e46236b722e7e529a813c15b512f81"
+		}, 
+		"res/sfx/man/mjt4_5.mp3" : {
+			"md5" : "bd0b977ed479d5689d06ad672a7def74"
+		}, 
+		"res/sfx/man/mjt4_6.mp3" : {
+			"md5" : "19578c2d3fd82e25e50c4b53e7ae9d78"
+		}, 
+		"res/sfx/man/mjt4_7.mp3" : {
+			"md5" : "d72a9c8e2c5489d7fb408becb299e813"
+		}, 
+		"res/sfx/man/peng.mp3" : {
+			"md5" : "13eb974bd657ec1813e3f54e32f326a4"
+		}, 
+		"res/sfx/man/piao.mp3" : {
+			"md5" : "cb21db94c00bd2fa6f964aaf8cbbeec8"
+		}, 
+		"res/sfx/man/tang.mp3" : {
+			"md5" : "428fd70ff018329facd821e3be037653"
+		}, 
+		"res/sfx/man/ti.mp3" : {
+			"md5" : "78e13f40c18a43578d1a68af48abae87"
+		}, 
+		"res/sfx/man/zimo.mp3" : {
+			"md5" : "ea5aedba28ce20503e060a028236c79a"
+		}, 
+		"res/sfx/woman/bupiao.mp3" : {
+			"md5" : "7252956c6ee2360b7185152144d1cfb9"
+		}, 
+		"res/sfx/woman/chi.mp3" : {
+			"md5" : "bf92004f3f26486da725e130c51667a2"
+		}, 
+		"res/sfx/woman/fei.mp3" : {
+			"md5" : "b6b1e730b6a4b9cd4831e2795ad091f3"
+		}, 
+		"res/sfx/woman/fix_msg_1.mp3" : {
+			"md5" : "c5cb275859f20147da1436899945f86e"
+		}, 
+		"res/sfx/woman/fix_msg_10.mp3" : {
+			"md5" : "807d203cb066f29215c1450acec7a9b0"
+		}, 
+		"res/sfx/woman/fix_msg_11.mp3" : {
+			"md5" : "807d203cb066f29215c1450acec7a9b0"
+		}, 
+		"res/sfx/woman/fix_msg_2.mp3" : {
+			"md5" : "851895ecf41dbc92839e3023de36e284"
+		}, 
+		"res/sfx/woman/fix_msg_3.mp3" : {
+			"md5" : "5756cf4fa3260055c0033f64e37f5ee9"
+		}, 
+		"res/sfx/woman/fix_msg_4.mp3" : {
+			"md5" : "527447b0311f706c6f8eebc189819cd2"
+		}, 
+		"res/sfx/woman/fix_msg_5.mp3" : {
+			"md5" : "b47c126870b12467c8220dc6ccc1db18"
+		}, 
+		"res/sfx/woman/fix_msg_6.mp3" : {
+			"md5" : "5f7e8cda2e86a75b1ff986817279b13b"
+		}, 
+		"res/sfx/woman/fix_msg_7.mp3" : {
+			"md5" : "b50a8b70ab77a42d93de6f932df2e8a7"
+		}, 
+		"res/sfx/woman/fix_msg_8.mp3" : {
+			"md5" : "c642d883031a14b2d80477d4debdcb2c"
+		}, 
+		"res/sfx/woman/fix_msg_9.mp3" : {
+			"md5" : "072a1ffdd16b9b1c1bea5cd100bd2294"
+		}, 
+		"res/sfx/woman/gang.mp3" : {
+			"md5" : "f1f11a8e9b4845c8093d19771766ef3b"
+		}, 
+		"res/sfx/woman/hu.mp3" : {
+			"md5" : "c002b780fd16b29d41301c10def58bc5"
+		}, 
+		"res/sfx/woman/mjt1_1.mp3" : {
+			"md5" : "b1c008aad4569e46078ade8f82908d0b"
+		}, 
+		"res/sfx/woman/mjt1_2.mp3" : {
+			"md5" : "2cb7e7fc0d40904a1ede81fe094430b7"
+		}, 
+		"res/sfx/woman/mjt1_3.mp3" : {
+			"md5" : "e2f8d11d94d530bb1e519af8dd12d944"
+		}, 
+		"res/sfx/woman/mjt1_4.mp3" : {
+			"md5" : "36e32931a1f03e96eac945d4ee852eec"
+		}, 
+		"res/sfx/woman/mjt1_5.mp3" : {
+			"md5" : "89bb0741b9699305993eb022f3c32de3"
+		}, 
+		"res/sfx/woman/mjt1_6.mp3" : {
+			"md5" : "3dda079f9474178a702c75e9fc2e0e1c"
+		}, 
+		"res/sfx/woman/mjt1_7.mp3" : {
+			"md5" : "4fca1e74da68c59c6dfc65e353152190"
+		}, 
+		"res/sfx/woman/mjt1_8.mp3" : {
+			"md5" : "af8f8e9ec63ce5629176cd8c13f00fc2"
+		}, 
+		"res/sfx/woman/mjt1_9.mp3" : {
+			"md5" : "8136865308c35a2a855f2655138e56c9"
+		}, 
+		"res/sfx/woman/mjt2_1.mp3" : {
+			"md5" : "2bdeb2f2987d14a412c4c5dde01c86c6"
+		}, 
+		"res/sfx/woman/mjt2_2.mp3" : {
+			"md5" : "747b7a5857716fb607c6dac0e753b67f"
+		}, 
+		"res/sfx/woman/mjt2_3.mp3" : {
+			"md5" : "9f33f253d7e13882fc295ed10a83774d"
+		}, 
+		"res/sfx/woman/mjt2_4.mp3" : {
+			"md5" : "2c741cc5bab231cfffa6035b99f3b416"
+		}, 
+		"res/sfx/woman/mjt2_5.mp3" : {
+			"md5" : "397aa7beeb54982931fecf70e8dede57"
+		}, 
+		"res/sfx/woman/mjt2_6.mp3" : {
+			"md5" : "61540058745591b23efd2f1bd69cf560"
+		}, 
+		"res/sfx/woman/mjt2_7.mp3" : {
+			"md5" : "c99403bdf852ed7ab54cbd8375a7fa8c"
+		}, 
+		"res/sfx/woman/mjt2_8.mp3" : {
+			"md5" : "fed772d227591d5219ad28f35d78197f"
+		}, 
+		"res/sfx/woman/mjt2_9.mp3" : {
+			"md5" : "0605f682dc72d006bf335f6e56094616"
+		}, 
+		"res/sfx/woman/mjt3_1.mp3" : {
+			"md5" : "1bf1323400cf7f38e55f54800d88046a"
+		}, 
+		"res/sfx/woman/mjt3_2.mp3" : {
+			"md5" : "163927003bfbeadece2ca5a2cffb9e9f"
+		}, 
+		"res/sfx/woman/mjt3_3.mp3" : {
+			"md5" : "b2320f128438447a75b0d6bf92c5ba1e"
+		}, 
+		"res/sfx/woman/mjt3_4.mp3" : {
+			"md5" : "138d3b5e2d5baa4271347c19c73b3413"
+		}, 
+		"res/sfx/woman/mjt3_5.mp3" : {
+			"md5" : "168cf48ff4b3dc6483b9578a7ec7187a"
+		}, 
+		"res/sfx/woman/mjt3_6.mp3" : {
+			"md5" : "0d7e842a7da185e9c0e0ecd57a56c527"
+		}, 
+		"res/sfx/woman/mjt3_7.mp3" : {
+			"md5" : "22a9006896661be313b448875972387d"
+		}, 
+		"res/sfx/woman/mjt3_8.mp3" : {
+			"md5" : "5d2f79916f572de726457a4e7b3491a4"
+		}, 
+		"res/sfx/woman/mjt3_9.mp3" : {
+			"md5" : "4791798c72db19dbe136260e0b152780"
+		}, 
+		"res/sfx/woman/mjt4_1.mp3" : {
+			"md5" : "d9e90da0cfdce990785cdc6b81cdd6bb"
+		}, 
+		"res/sfx/woman/mjt4_2.mp3" : {
+			"md5" : "ec0c01362734802a287ebe6c888a5948"
+		}, 
+		"res/sfx/woman/mjt4_3.mp3" : {
+			"md5" : "bf112902e9542b4fce85952188d28988"
+		}, 
+		"res/sfx/woman/mjt4_4.mp3" : {
+			"md5" : "7b6ff56d14a44ee6dfd6706e029ad517"
+		}, 
+		"res/sfx/woman/mjt4_5.mp3" : {
+			"md5" : "a8ba3076610398baf3f3447fbd8df1dc"
+		}, 
+		"res/sfx/woman/mjt4_6.mp3" : {
+			"md5" : "0fa6e1fccde822d3106a6887eb897b2b"
+		}, 
+		"res/sfx/woman/mjt4_7.mp3" : {
+			"md5" : "eb71c5145568e5e28a91905535fc65ea"
+		}, 
+		"res/sfx/woman/peng.mp3" : {
+			"md5" : "3801771e29848d7fe949fc74bed05b57"
+		}, 
+		"res/sfx/woman/piao.mp3" : {
+			"md5" : "7d4c5ba18dcf92c72c552a6ff95a5099"
+		}, 
+		"res/sfx/woman/tang.mp3" : {
+			"md5" : "89ed213b3cd62f08868f2f99807a23dc"
+		}, 
+		"res/sfx/woman/ti.mp3" : {
+			"md5" : "1b581d9abc8218d1cb93594df8a8f25c"
+		}, 
+		"res/sfx/woman/zimo.mp3" : {
+			"md5" : "2978aa2d72a443f1ce2c8281e2858452"
+		}, 
+		"res/ShareSelect.csb" : {
+			"md5" : "72c3361ce3c20958b5e9bafa51f7ac21"
+		}, 
+		"res/TB_tuiguang.csb" : {
+			"md5" : "53c9d709a092ae6ad8198869a3422ce2"
+		}, 
+		"res/TurntableActivity.csb" : {
+			"md5" : "b9bed11c55c179898fe2215dc6f3521d"
+		}, 
+		"res/UpdataError.csb" : {
+			"md5" : "d95aa1ca6de71a72a38280cfad3144c2"
+		}, 
+		"res/UpdataScene.csb" : {
+			"md5" : "073f161efb7c2054ffbff504f1cc902f"
+		}, 
+		"res/Update.csb" : {
+			"md5" : "f13c477f270448cb03d32eeea481d557"
+		}, 
+		"res/UpdateAppScene.csb" : {
+			"md5" : "f3d3b30e6aa872132eebeec4e43bf472"
+		}, 
+		"res/VisitorsLogin.csb" : {
+			"md5" : "ee938f5a5b5cd9d9225c9898339a2572"
+		}, 
+		"res/weixinTipsLayer.csb" : {
+			"md5" : "78dd01c8ad793c46312d95a0bd8b277b"
+		}, 
+		"res/Wifi.csb" : {
+			"md5" : "28ed00251eaa2e5aeef2c9be1243c569"
+		}, 
+		"res/wupinfeichu.csb" : {
+			"md5" : "e5f5fac06a479edc20966656caf63acd"
+		}, 
+		"res/wupinfeichu2.csb" : {
+			"md5" : "b6570cbf76abbd1f294b93169e0a4b20"
+		}, 
+		"res/ZanHelpScene.csb" : {
+			"md5" : "b573f205089297dd16a60d7c8ef97e74"
+		}, 
+		"res/ZanNoticeTips.csb" : {
+			"md5" : "de3b0faa33d2db5062cc05fff8f93a3a"
+		}, 
+		"res/zhuanpan2.csb" : {
+			"md5" : "07a40876a43b57e2c0a069aba7ba63d0"
+		}, 
+		"src_et/app/DefineConfig.luac" : {
+			"md5" : "69c62be3fe7f94d6b96d8bd832bf70e6"
+		}, 
+		"src_et/app/libs/bit.luac" : {
+			"md5" : "04e7334375b39904bb6baafec1d1abbd"
+		}, 
+		"src_et/app/libs/MessagePack.luac" : {
+			"md5" : "478babc2dc8674f09b6fd9e34ffe1b43"
+		}, 
+		"src_et/app/localizations/ch_cn.luac" : {
+			"md5" : "146e9447ba8f550a440676711cee2698"
+		}, 
+		"src_et/app/localizations/LocationUtil.luac" : {
+			"md5" : "b8cb538cb617f6aad55061381962bf6d"
+		}, 
+		"src_et/app/LoginIpStrategy.luac" : {
+			"md5" : "d8b3ab4bebe7bce0abb7197ff89d2e22"
+		}, 
+		"src_et/app/LuaBridge.luac" : {
+			"md5" : "5b618d37e2e69d19d6d007d5c432b5e0"
+		}, 
+		"src_et/app/MarqueeMsg.luac" : {
+			"md5" : "c038bb03760537473c46aa5e7117901f"
+		}, 
+		"src_et/app/MyApp.luac" : {
+			"md5" : "00bff75f2d90c10a1a41869f5237ffb3"
+		}, 
+		"src_et/app/PlayerHeadManager.luac" : {
+			"md5" : "f418f708687d6d13054558ea44fc47c3"
+		}, 
+		"src_et/app/protocols/MessageInit.luac" : {
+			"md5" : "3caf8b60ff72e197bad674c0162c9894"
+		}, 
+		"src_et/app/RichLabel.luac" : {
+			"md5" : "53c654705155cbdf25a4ba598a33a0d8"
+		}, 
+		"src_et/app/SocketClient.luac" : {
+			"md5" : "3ff3630214a99df0d9f14e96b3d2ed04"
+		}, 
+		"src_et/app/Sound.luac" : {
+			"md5" : "e7d2c90fd16d877b6a3ac28ac0ee5dda"
+		}, 
+		"src_et/app/SoundManager.luac" : {
+			"md5" : "ee0a77fb8874165f9fdfed59c0f2e9c8"
+		}, 
+		"src_et/app/Tools.luac" : {
+			"md5" : "7902cc4d1b55c58f6fb079d5a46ad4de"
+		}, 
+		"src_et/app/UtilityTools.luac" : {
+			"md5" : "80672af9a56abf0969af045bbf16fc9a"
+		}, 
+		"src_et/app/views/Activities/ActivityDragonBoat.luac" : {
+			"md5" : "d64a3958f8210a48b4511f5ae27419ce"
+		}, 
+		"src_et/app/views/Activities/ActivityInviteDialog.luac" : {
+			"md5" : "96b35974c40809c7c3760d143a1cc9c4"
+		}, 
+		"src_et/app/views/Activities/ActivityMotherDay.luac" : {
+			"md5" : "f8e434f100c61853b1f8ebad29fab0f9"
+		}, 
+		"src_et/app/views/Activities/ActivityRecruitDialog.luac" : {
+			"md5" : "e70042aa6963901a2eece8d11f117282"
+		}, 
+		"src_et/app/views/Activities/InviteRewardDialog.luac" : {
+			"md5" : "b41764bc073723c59d89ac0edadc13ec"
+		}, 
+		"src_et/app/views/Activities/RecruitIcon.luac" : {
+			"md5" : "8512caa1ede2e8355ae5ebbace40b767"
+		}, 
+		"src_et/app/views/Activities/TurntableActivity.luac" : {
+			"md5" : "3c968f1cc7aafd69b1d3313022ef7872"
+		}, 
+		"src_et/app/views/AgreementPanel.luac" : {
+			"md5" : "2e055851805b422cf5b1b776548f13bd"
+		}, 
+		"src_et/app/views/ApplyDismissRoom.luac" : {
+			"md5" : "2479721577b937790b64d798594f0741"
+		}, 
+		"src_et/app/views/ChatPanel.luac" : {
+			"md5" : "1e33373ab95d2b7df4d4dd3d83959f61"
+		}, 
+		"src_et/app/views/CreateRoomData.luac" : {
+			"md5" : "aa9e9da9a24e5764acf26423a5b9640d"
+		}, 
+		"src_et/app/views/CreateRoomNew.luac" : {
+			"md5" : "69f3444127478cb80401e0a0358a44da"
+		}, 
+		"src_et/app/views/ExchangeGold.luac" : {
+			"md5" : "92f0f5909356fda968ec24686bf68025"
+		}, 
+		"src_et/app/views/FinalReport.luac" : {
+			"md5" : "83c7f281b18551f78dd062b8b2f19d2f"
+		}, 
+		"src_et/app/views/FriendEvaluation.luac" : {
+			"md5" : "4442772bb96b8d8aa4e32acee72543a0"
+		}, 
+		"src_et/app/views/GlobalMethods.luac" : {
+			"md5" : "9188a970c7865f947af47f0ef5f1ad56"
+		}, 
+		"src_et/app/views/GMCheckHistory.luac" : {
+			"md5" : "7bf7c7d46ca195395a5f28f92b8f842f"
+		}, 
+		"src_et/app/views/HelpScene.luac" : {
+			"md5" : "dc080b95c89349f9c3bfbb6481f077e1"
+		}, 
+		"src_et/app/views/HistoryRecord.luac" : {
+			"md5" : "1fec2387cda02b822675bec93187d3e4"
+		}, 
+		"src_et/app/views/JoinRoom.luac" : {
+			"md5" : "e64aa2bd8b25525515a8ec1e38eacee4"
+		}, 
+		"src_et/app/views/LoadingTips.luac" : {
+			"md5" : "f67b71b7995efed967c4b23f3fb32f25"
+		}, 
+		"src_et/app/views/LoginScene.luac" : {
+			"md5" : "b7b2c85f6a6acd6aebadd1a419fc1af4"
+		}, 
+		"src_et/app/views/LogoScene.luac" : {
+			"md5" : "68502a02536a1fa63ae7a24ce74c1525"
+		}, 
+		"src_et/app/views/MainScene.luac" : {
+			"md5" : "8854fc29115563456e1ee68b520417b4"
+		}, 
+		"src_et/app/views/MessageScene.luac" : {
+			"md5" : "c92a52c41f0afe17374677e97b7f47aa"
+		}, 
+		"src_et/app/views/NewyearActivity.luac" : {
+			"md5" : "42c367f7941a2c8943c95ae5bef19dd2"
+		}, 
+		"src_et/app/views/NoticeBuyCard.luac" : {
+			"md5" : "629a71c3a35d468f1e261717c42fe4e9"
+		}, 
+		"src_et/app/views/NoticeTips.luac" : {
+			"md5" : "e8aee606b38d07586a941a9f3fd4f11e"
+		}, 
+		"src_et/app/views/NoticeTipsForUpdate.luac" : {
+			"md5" : "10d5711f1c3be1937e146f1c1b3b8886"
+		}, 
+		"src_et/app/views/PaiTypeActivity.luac" : {
+			"md5" : "b47d0035c77ada31b32bdd092080f56f"
+		}, 
+		"src_et/app/views/PlayerInfoTips.luac" : {
+			"md5" : "629ae7e6921f851910e8282b1b1b3c82"
+		}, 
+		"src_et/app/views/PlayManager_Base.luac" : {
+			"md5" : "a472a4ed00a98699ff8b2a0186789ba6"
+		}, 
+		"src_et/app/views/PlayManagerDDH.luac" : {
+			"md5" : "8c6f2c53633aea6da4134d23504beadf"
+		}, 
+		"src_et/app/views/PlayManagerDY.luac" : {
+			"md5" : "8bbf4ef9facbb5d104558bff62b368a8"
+		}, 
+		"src_et/app/views/PlayManagerErRen.luac" : {
+			"md5" : "52d89d381f83e9e8559c7caf943f5f22"
+		}, 
+		"src_et/app/views/PlayManagerGA.luac" : {
+			"md5" : "2b044f21c2cd67510fab7369a4fa99d3"
+		}, 
+		"src_et/app/views/PlayManagerLS.luac" : {
+			"md5" : "633592707bade0ac51d5ecb5b7150e7f"
+		}, 
+		"src_et/app/views/PlayManagerLZ.luac" : {
+			"md5" : "d34d2bd94ddaa1a7248a23e1343654a8"
+		}, 
+		"src_et/app/views/PlayManagerMY.luac" : {
+			"md5" : "e9b5a42bbc0ba5c660c1ab2c44bc1b58"
+		}, 
+		"src_et/app/views/PlayManagerNeiJiang.luac" : {
+			"md5" : "b943db15a7c5d3371525340f8563158c"
+		}, 
+		"src_et/app/views/PlayManagerNJ.luac" : {
+			"md5" : "4ef3bb00a30b9014261798558915de1c"
+		}, 
+		"src_et/app/views/PlayManagerSR.luac" : {
+			"md5" : "f2a13b68860d79870ed84043dec3770a"
+		}, 
+		"src_et/app/views/PlayManagerSRSF.luac" : {
+			"md5" : "c6b1a3254c04832fc8fdec1f9ff893ff"
+		}, 
+		"src_et/app/views/PlayManagerWZ.luac" : {
+			"md5" : "ee96c6813f68cd6037406706ebb23eef"
+		}, 
+		"src_et/app/views/PlayManagerXL.luac" : {
+			"md5" : "fa73035d233b46de0128f404ccd78eda"
+		}, 
+		"src_et/app/views/PlayManagerXZ.luac" : {
+			"md5" : "77f2769620007f1bb5a436c69525b74c"
+		}, 
+		"src_et/app/views/PlayManagerYA.luac" : {
+			"md5" : "4b131a66a35b46c4fd20add252d59187"
+		}, 
+		"src_et/app/views/PlayManagerZG.luac" : {
+			"md5" : "f147916bb4e58c276619dfbcef3c5356"
+		}, 
+		"src_et/app/views/PlayManagerZGSR.luac" : {
+			"md5" : "c346dbb0d58a896944afa3d0afa9005f"
+		}, 
+		"src_et/app/views/PlaySceneBase.luac" : {
+			"md5" : "3b99983d675cb91fba92f9e337cc6a67"
+		}, 
+		"src_et/app/views/PlaySceneDDH.luac" : {
+			"md5" : "96404fa2a563fc08de8c21b8de7bac5d"
+		}, 
+		"src_et/app/views/PlaySceneDY.luac" : {
+			"md5" : "879c3f27f84b4c22ae1e7130bfe0e347"
+		}, 
+		"src_et/app/views/PlaySceneErRen.luac" : {
+			"md5" : "bf24778a468cb32fd291aa23777a9cae"
+		}, 
+		"src_et/app/views/PlaySceneGA.luac" : {
+			"md5" : "a6224325b36264c33ccc07fdd2e133e6"
+		}, 
+		"src_et/app/views/PlaySceneGold.luac" : {
+			"md5" : "6e709f7812136a72943a710bca07d515"
+		}, 
+		"src_et/app/views/PlaySceneLS.luac" : {
+			"md5" : "f624bd5451d49afd457ca8037e78b1dc"
+		}, 
+		"src_et/app/views/PlaySceneLZ.luac" : {
+			"md5" : "865086bebe0eb04df9ae56b03a6efe6f"
+		}, 
+		"src_et/app/views/PlaySceneMatch.luac" : {
+			"md5" : "a20eb6ab881bfc9aaabd040e2dd6598e"
+		}, 
+		"src_et/app/views/PlaySceneMY.luac" : {
+			"md5" : "4610570daed8e62baffe1e02556d25d2"
+		}, 
+		"src_et/app/views/PlaySceneNC.luac" : {
+			"md5" : "bbfc16df6c424ea553caab664418d199"
+		}, 
+		"src_et/app/views/PlaySceneNeiJiang.luac" : {
+			"md5" : "0c9285fb02b74b42a6c39ba011f6d1a9"
+		}, 
+		"src_et/app/views/PlaySceneNJ.luac" : {
+			"md5" : "44614514a45d17c4d4bd67be7aeb6545"
+		}, 
+		"src_et/app/views/PlaySceneTX.luac" : {
+			"md5" : "1de09f5fe3efc07c7aae968a70af035e"
+		}, 
+		"src_et/app/views/PlaySceneTXS.luac" : {
+			"md5" : "f78c21ef3f851c0908120c004f6c8002"
+		}, 
+		"src_et/app/views/PlaySceneWZ.luac" : {
+			"md5" : "e379d84094c2e3fd9b5f4bc64291e8b8"
+		}, 
+		"src_et/app/views/PlaySceneXL.luac" : {
+			"md5" : "9078fbd58b5103cc6782f4481cbac56f"
+		}, 
+		"src_et/app/views/PlaySceneXZ.luac" : {
+			"md5" : "176fb662e5f57c5da32b6ff662afaa59"
+		}, 
+		"src_et/app/views/PlaySceneYA.luac" : {
+			"md5" : "6283b7b50f42d3b054db68793657ab93"
+		}, 
+		"src_et/app/views/PlaySceneYB.luac" : {
+			"md5" : "1f56dd0c590017f837fa1d9ba9d1479b"
+		}, 
+		"src_et/app/views/PlaySceneZG.luac" : {
+			"md5" : "ddf232499b64d208075f1e0aebe91aa7"
+		}, 
+		"src_et/app/views/PlaySceneZGSR.luac" : {
+			"md5" : "8ff88b52c99d198492e667a1cc8a3b52"
+		}, 
+		"src_et/app/views/Purchase/AppStore.luac" : {
+			"md5" : "5e5c36af93cdad9bbe9b326bec615f1a"
+		}, 
+		"src_et/app/views/Purchase/Charge.luac" : {
+			"md5" : "4171a346281f242d10ea76dfe188a757"
+		}, 
+		"src_et/app/views/Purchase/init.luac" : {
+			"md5" : "6bb687116f82610591b185965678f26f"
+		}, 
+		"src_et/app/views/Purchase/Recharge.luac" : {
+			"md5" : "4902968f512f3754995204409ee2ab0e"
+		}, 
+		"src_et/app/views/Purchase/Recharge_10100615.luac" : {
+			"md5" : "c1cb461ae10a2b00497ae3f5aa9023f7"
+		}, 
+		"src_et/app/views/Purchase/Recharge_1090515.luac" : {
+			"md5" : "04449bf47f64796e5c37be39b324daed"
+		}, 
+		"src_et/app/views/Purchase/RechargeLayer.luac" : {
+			"md5" : "de2e340f2adabf0bd4d4a276ac0b6eae"
+		}, 
+		"src_et/app/views/ReadyPlay.luac" : {
+			"md5" : "8c310d954f5bbd5cff9837523ad34592"
+		}, 
+		"src_et/app/views/RealName.luac" : {
+			"md5" : "2f3cfbf0dbfe28152a31540002743afe"
+		}, 
+		"src_et/app/views/ReplayLayer.luac" : {
+			"md5" : "f7f5dea1e419b97f140ea257178280db"
+		}, 
+		"src_et/app/views/RoundReport.luac" : {
+			"md5" : "ab9fd1df0f3e023595c3f64db9cbca0a"
+		}, 
+		"src_et/app/views/RoundReport_Gold.luac" : {
+			"md5" : "79d35f1edf9100e30b36156985569406"
+		}, 
+		"src_et/app/views/RoundReport_MY.luac" : {
+			"md5" : "6ec0e2c93fece7782afeba5ecb408fc3"
+		}, 
+		"src_et/app/views/RoundReport_NJ.luac" : {
+			"md5" : "691c77bac4ec41b46cf7bc83936b091e"
+		}, 
+		"src_et/app/views/RoundReport_YB.luac" : {
+			"md5" : "f952ffe873bb820087ff010748d2ab30"
+		}, 
+		"src_et/app/views/Setting.luac" : {
+			"md5" : "01dc0673d93db5589292b4646d4b90f4"
+		}, 
+		"src_et/app/views/ShareSelect.luac" : {
+			"md5" : "ff34b34a2405422c0927679c71e05c99"
+		}, 
+		"src_et/app/views/ShieldWord.luac" : {
+			"md5" : "7b43cf74840c989c2fca49fbcf1d4536"
+		}, 
+		"src_et/app/views/TestSfx.luac" : {
+			"md5" : "0cc41209e3bcd3e876509c10a5f2b5da"
+		}, 
+		"src_et/app/views/updateInfoTipsLayer.luac" : {
+			"md5" : "d12b4151fb6bd76cfea4517e064a5a79"
+		}, 
+		"src_et/app/views/UpdateScene.luac" : {
+			"md5" : "efc259260a1010d735eb5cf1009d82ee"
+		}, 
+		"src_et/app/views/UpdateVersion.luac" : {
+			"md5" : "cf1ac333e7d572b1477773e88cae02e6"
+		}, 
+		"src_et/app/views/VisitorsLogin.luac" : {
+			"md5" : "396cc7ab227d8ccc13608f02599aa11a"
+		}, 
+		"src_et/app/views/wxTipsLayer.luac" : {
+			"md5" : "3c3b4d11ed225e62dfdce463be97a0ef"
+		}, 
+		"src_et/app/views/XLPageView.luac" : {
+			"md5" : "d6df39083dfb595fdf5fd7ca999137fd"
+		}, 
+		"src_et/app/views/zanHelpScene.luac" : {
+			"md5" : "9917dea8493a0cd25ffb5f8474b033fc"
+		}, 
+		"src_et/app/views/zanNoticeTips.luac" : {
+			"md5" : "94b6eb88eaa70fc2a26ea7987b8aad39"
+		}, 
+		"src_et/cocos/3d/3dConstants.luac" : {
+			"md5" : "afa9fdf911adff949d7d6abd546cad46"
+		}, 
+		"src_et/cocos/cocos2d/bitExtend.luac" : {
+			"md5" : "29de67bed1b42e1a49db847aad5ab293"
+		}, 
+		"src_et/cocos/cocos2d/Cocos2d.luac" : {
+			"md5" : "0333754aa213eef47fd3f969c2ab067d"
+		}, 
+		"src_et/cocos/cocos2d/Cocos2dConstants.luac" : {
+			"md5" : "ceb51a875f2d3f1809f0161a263f8f6b"
+		}, 
+		"src_et/cocos/cocos2d/deprecated.luac" : {
+			"md5" : "054ad1dd05895eceec377b513a0b0e33"
+		}, 
+		"src_et/cocos/cocos2d/DeprecatedCocos2dClass.luac" : {
+			"md5" : "cbaa5f959f2400d8acfa345a9203449e"
+		}, 
+		"src_et/cocos/cocos2d/DeprecatedCocos2dEnum.luac" : {
+			"md5" : "214844c3e6bb307da12de66fb34049aa"
+		}, 
+		"src_et/cocos/cocos2d/DeprecatedCocos2dFunc.luac" : {
+			"md5" : "a05bc0c838df2fc532c1e875804150fa"
+		}, 
+		"src_et/cocos/cocos2d/DeprecatedOpenglEnum.luac" : {
+			"md5" : "bf9cf10a381806407e0a0a4bd5c4d836"
+		}, 
+		"src_et/cocos/cocos2d/DrawPrimitives.luac" : {
+			"md5" : "cc1599bf527bcff132b125fcc5a9ec79"
+		}, 
+		"src_et/cocos/cocos2d/functions.luac" : {
+			"md5" : "1377ce8fe1eedcb333dc78c6dd1ae154"
+		}, 
+		"src_et/cocos/cocos2d/json.luac" : {
+			"md5" : "9c2ba1a4c79bfd249da1a4716bcbe5d6"
+		}, 
+		"src_et/cocos/cocos2d/luaj.luac" : {
+			"md5" : "3371b4b90e78003a6dd63810e6f9183e"
+		}, 
+		"src_et/cocos/cocos2d/luaoc.luac" : {
+			"md5" : "384a7574670dfd2f64c4483609848fe6"
+		}, 
+		"src_et/cocos/cocos2d/Opengl.luac" : {
+			"md5" : "c63f4d69cec0e5137751f0219176856f"
+		}, 
+		"src_et/cocos/cocos2d/OpenglConstants.luac" : {
+			"md5" : "5f0d3ecf1fc911f5b0063dd42960b967"
+		}, 
+		"src_et/cocos/cocosbuilder/CCBReaderLoad.luac" : {
+			"md5" : "5fdcbbc4512fa8535a9a0e4e279df7ed"
+		}, 
+		"src_et/cocos/cocosbuilder/DeprecatedCocosBuilderClass.luac" : {
+			"md5" : "523f4f3a5c95e2a483b1f003b04a23f4"
+		}, 
+		"src_et/cocos/cocosdenshion/AudioEngine.luac" : {
+			"md5" : "4081d88a4387fc6643964e7f18319fe0"
+		}, 
+		"src_et/cocos/cocosdenshion/DeprecatedCocosDenshionClass.luac" : {
+			"md5" : "17e017010b9e31e2dec9b70f791d0fed"
+		}, 
+		"src_et/cocos/cocosdenshion/DeprecatedCocosDenshionFunc.luac" : {
+			"md5" : "6efe6c3e010041cf1f6773f433842122"
+		}, 
+		"src_et/cocos/cocostudio/CocoStudio.luac" : {
+			"md5" : "564a6a920f00cff6af9194ef0cb37eb5"
+		}, 
+		"src_et/cocos/cocostudio/DeprecatedCocoStudioClass.luac" : {
+			"md5" : "008e38a2d344013e01b7575e93210557"
+		}, 
+		"src_et/cocos/cocostudio/DeprecatedCocoStudioFunc.luac" : {
+			"md5" : "810cbb5369d431edfb271c9a484483e2"
+		}, 
+		"src_et/cocos/cocostudio/StudioConstants.luac" : {
+			"md5" : "504b20b55c13ea73e7f24787d932dc8e"
+		}, 
+		"src_et/cocos/controller/ControllerConstants.luac" : {
+			"md5" : "1833b6e2a36b21d040cf8f4969219a39"
+		}, 
+		"src_et/cocos/extension/DeprecatedExtensionClass.luac" : {
+			"md5" : "b15fbc4b798ff77dae1a2fda86c8325c"
+		}, 
+		"src_et/cocos/extension/DeprecatedExtensionEnum.luac" : {
+			"md5" : "cf997c11e33f289e8995ef4292f9290d"
+		}, 
+		"src_et/cocos/extension/DeprecatedExtensionFunc.luac" : {
+			"md5" : "8b5dff40c6c8a55f35de5d1d1374321a"
+		}, 
+		"src_et/cocos/extension/ExtensionConstants.luac" : {
+			"md5" : "8343817f15ca36fa91118c195bd0a093"
+		}, 
+		"src_et/cocos/framework/audio.luac" : {
+			"md5" : "839fae80c20d85439bcaaa0a1976b985"
+		}, 
+		"src_et/cocos/framework/components/event.luac" : {
+			"md5" : "04845b9a1779e3ff2c0d75b936a80cdc"
+		}, 
+		"src_et/cocos/framework/device.luac" : {
+			"md5" : "74428087e70dd8e9f7f9a3660fbb4e98"
+		}, 
+		"src_et/cocos/framework/display.luac" : {
+			"md5" : "145517475538294d70253d88a5084329"
+		}, 
+		"src_et/cocos/framework/extends/LayerEx.luac" : {
+			"md5" : "5633f377297929cd7f18befe1907fdbb"
+		}, 
+		"src_et/cocos/framework/extends/MenuEx.luac" : {
+			"md5" : "fe53e6de3ccdc1399ba00e243363856b"
+		}, 
+		"src_et/cocos/framework/extends/NodeEx.luac" : {
+			"md5" : "ce9e1848309eb169abdd0bedf4655662"
+		}, 
+		"src_et/cocos/framework/extends/SpriteEx.luac" : {
+			"md5" : "246096341e99077b9a4c8bc46b1272a9"
+		}, 
+		"src_et/cocos/framework/extends/UICheckBox.luac" : {
+			"md5" : "990075880dfb71fc773c85694783eaaa"
+		}, 
+		"src_et/cocos/framework/extends/UIEditBox.luac" : {
+			"md5" : "5bfc322492eef9a4f3369ff1fc1d9507"
+		}, 
+		"src_et/cocos/framework/extends/UIListView.luac" : {
+			"md5" : "0148f053c3341bb7e8da0a486d41a2b1"
+		}, 
+		"src_et/cocos/framework/extends/UIPageView.luac" : {
+			"md5" : "23c062a1e6aa01a644ac4ce275043072"
+		}, 
+		"src_et/cocos/framework/extends/UIScrollView.luac" : {
+			"md5" : "b4ac71d7d8905fbce4fc8422af00bdb7"
+		}, 
+		"src_et/cocos/framework/extends/UISlider.luac" : {
+			"md5" : "7b74f7a93250174159907118f20622d2"
+		}, 
+		"src_et/cocos/framework/extends/UITextField.luac" : {
+			"md5" : "2aedcac3ee785162a1d78286c186dcff"
+		}, 
+		"src_et/cocos/framework/extends/UIWidget.luac" : {
+			"md5" : "3f56bc6b2b3b4409756309c649776450"
+		}, 
+		"src_et/cocos/framework/init.luac" : {
+			"md5" : "07556bc478137a9006a6bf7dab1134bf"
+		}, 
+		"src_et/cocos/framework/package_support.luac" : {
+			"md5" : "82d5439e3639bfe1854ee306a1145a6a"
+		}, 
+		"src_et/cocos/framework/transition.luac" : {
+			"md5" : "42e18d87a0c8115c1fb6605082962fc9"
+		}, 
+		"src_et/cocos/init.luac" : {
+			"md5" : "a00ec66b0fb984b683690e05866988ad"
+		}, 
+		"src_et/cocos/network/DeprecatedNetworkClass.luac" : {
+			"md5" : "f184f208d42a681bf1b8e7ebf692bb1b"
+		}, 
+		"src_et/cocos/network/DeprecatedNetworkEnum.luac" : {
+			"md5" : "6e0bf593ba7ec84e8a46aa3394ac53d0"
+		}, 
+		"src_et/cocos/network/DeprecatedNetworkFunc.luac" : {
+			"md5" : "8bc59dbf2669ebf5671ced4cd8f18fb9"
+		}, 
+		"src_et/cocos/network/NetworkConstants.luac" : {
+			"md5" : "cf1c796b84011f6bbd82aaff4c74de5c"
+		}, 
+		"src_et/cocos/physics3d/physics3d-constants.luac" : {
+			"md5" : "1d66b12113e2662206581b314c7d05fe"
+		}, 
+		"src_et/cocos/spine/SpineConstants.luac" : {
+			"md5" : "282b5e1df36b4cc936e4a4e883ae6ba0"
+		}, 
+		"src_et/cocos/ui/DeprecatedUIEnum.luac" : {
+			"md5" : "5009fa22241b6e1a6b1fe921339bf71c"
+		}, 
+		"src_et/cocos/ui/DeprecatedUIFunc.luac" : {
+			"md5" : "455b7c69883c3aa2eb93f6acad2528a4"
+		}, 
+		"src_et/cocos/ui/experimentalUIConstants.luac" : {
+			"md5" : "6710cb6553b5e92e541a8caccdb47f56"
+		}, 
+		"src_et/cocos/ui/GuiConstants.luac" : {
+			"md5" : "f776d58903afd615690867eafc1abfdf"
+		}, 
+		"src_et/config.luac" : {
+			"md5" : "55b3a3ddee35c2874a2664520c47936b"
+		}, 
+		"src_et/main.luac" : {
+			"md5" : "67c1078ceec93a895c651ead2fe1a89a"
+		}, 
+		"src_et/packages/mvc/AppBase.luac" : {
+			"md5" : "06e24b69db790b36bf9d88faf64185de"
+		}, 
+		"src_et/packages/mvc/init.luac" : {
+			"md5" : "b84d2125fa02c8882358bc15c63e7dcc"
+		}, 
+		"src_et/packages/mvc/ViewBase.luac" : {
+			"md5" : "be5959916484271ae9be86d1a3f0bc41"
+		}
+    },
+    "searchPaths" : [
+    ]
+}
