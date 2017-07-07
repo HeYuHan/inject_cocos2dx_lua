@@ -32,9 +32,9 @@
 #include <unistd.h>
 #include <errno.h>
 #include <sys/mman.h>
-#include <android/log.h>
-#define  LOG_TAG "INJECT"
-#define  LOGD(fmt, args...)  __android_log_print(ANDROID_LOG_DEBUG,LOG_TAG, fmt, ##args)
+#include <android/log.h>  
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__);
+
 
 int debug = 0;
 int zygote = 0;
@@ -644,6 +644,7 @@ int find_pid_of(const char *process_name)
 
 int main(int argc, char *argv[])
 {
+	printf("inject start...\n");
 	pid_t pid = 0;
 	struct pt_regs2 regs;
 	unsigned long dlopenaddr, mprotectaddr, codeaddr, libaddr;
@@ -654,7 +655,7 @@ int main(int argc, char *argv[])
 	char *arg;
 	int opt;
 	char *appname = 0;
-	printf("inject start...\n");
+	
 	//com.example.targetapp
 	//com.mahjong.sichuang
 	pid=find_pid_of("com.mahjong.sichuang");
@@ -921,19 +922,17 @@ int main(int argc, char *argv[])
 	else {
 		regs.ARM_pc = codeaddr; // just execute the 'shellcode'
 	}
-
+	
 	// detach and continue
 	ptrace(PTRACE_SETREGS, pid, 0, &regs);
 	ptrace(PTRACE_DETACH, pid, 0, (void *)SIGCONT);
 
 	if (debug)
 		printf("library injection completed!\n");
-
 	return 0;
 }
 
-
-#define HELPSTR "error usage: %s -p PID [-P PROCNAME] -l LIBNAME -f FUNCTION [-d (debug on)]\n"
+//#define HELPSTR "error usage: %s -p PID [-P PROCNAME] -l LIBNAME -f FUNCTION [-d (debug on)]\n"
 
 //int main(int argc, char** argv) {
 //    printf("inject start...\n");

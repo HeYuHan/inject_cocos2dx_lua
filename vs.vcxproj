@@ -69,7 +69,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\CrashTools\android-ndk-r10e\platforms\android-21\arch-arm\usr\include;$(JAVA_HOME)\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(NDK_ROOT)\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi\include;$(NDK_ROOT)\sources\cxx-stl\gnu-libstdc++\4.8\include;$(NDK_ROOT)\platforms\android-21\arch-arm\usr\include;$(JAVA_HOME)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>E:\CrashTools\android-ndk-r10e\platforms\android-21\arch-arm\usr\include;$(JAVA_HOME)\include;$(IncludePath)</IncludePath>
@@ -117,20 +117,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="jni\example\base.c" />
-    <ClCompile Include="jni\example\entry.c" />
-    <ClCompile Include="jni\example\hook.c" />
-    <ClCompile Include="jni\example\util.c" />
+    <ClCompile Include="jni\hook_lib\base\base.c" />
+    <ClCompile Include="jni\hook_lib\base\hook.c" />
+    <ClCompile Include="jni\hook_lib\entry.c" />
+    <ClCompile Include="jni\hook_lib\luaL_loadbuffer.c" />
+    <ClCompile Include="jni\hook_lib\tools.c" />
+    <ClCompile Include="jni\hook_lib\base\util.c" />
     <ClCompile Include="jni\Inject\Inject.c" />
+    <ClCompile Include="jni\Inject\server.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="jni\example\base.h" />
-    <ClInclude Include="jni\example\hook.h" />
-    <ClInclude Include="jni\example\util.h" />
+    <ClInclude Include="jni\hook_lib\base\base.h" />
+    <ClInclude Include="jni\hook_lib\base\hook.h" />
+    <ClInclude Include="jni\hook_lib\luaL_loadbuffer.h" />
+    <ClInclude Include="jni\hook_lib\tools.h" />
+    <ClInclude Include="jni\hook_lib\base\util.h" />
+    <ClInclude Include="jni\Inject\server.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="jni\Android.mk" />
     <None Include="jni\Appliction.mk" />
+    <None Include="jni\hook_lib\base\jni\Android.mk" />
+    <None Include="jni\hook_lib\base\jni\Application.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="AndroidManifest.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
