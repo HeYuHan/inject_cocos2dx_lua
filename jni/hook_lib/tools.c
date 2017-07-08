@@ -115,7 +115,10 @@ int read_file(char* path, char* out_put, int len)
 }
 int get_file_len(char* path)
 {
-	if (access(path, 0) != 0)return -1;
+	if (access(path, 0) != 0)
+	{
+		return -1;
+	}
 	FILE* file;
 	int ret = -1;
 	file = fopen(path, "r");

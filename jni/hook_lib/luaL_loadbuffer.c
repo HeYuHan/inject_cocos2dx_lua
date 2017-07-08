@@ -1,26 +1,19 @@
 #include "luaL_loadbuffer.h"
 #include "tools.h"
-#define PACK_HACK_PATH "/data/data/com.mahjong.sichuang/hack/"
+#define PACK_HACK_PATH "/data/data/com.mahjong.sichuang/hack_res/"
 #define PACK_ORGIN_PATH "/data/data/com.mahjong.sichuang/origin/"
 static DEFINE_HOOK_INFO(luaL_loadbuffer)
 int DEFINE_HOOK_FUNC(luaL_loadbuffer)(void* lua_state, const char* content, size_t len, const char* file_name)
 {
-	char dir[128];
-	char name[128];
-	char save_dir[256] = {0};
-	char save_path[256] = {0};
 	char hack_file_path[256] = { 0 };
 	char *hack_file_content = NULL;
 	int hack_file_content_len = 0;
-
-	get_path_dir_name(file_name, dir);
-	get_path_file_name(file_name, name);
-	sprintf(save_dir, "%s%s", PACK_ORGIN_PATH, dir);
-	sprintf(save_path, "%s%s", PACK_ORGIN_PATH,file_name);
-	sprintf(hack_file_path, "%s%s", PACK_HACK_PATH,name);
+	sprintf(hack_file_path, "%s%s", PACK_HACK_PATH, file_name);
 	hack_file_content_len = get_file_len(hack_file_path);
+	
 	if (hack_file_content_len > 0)
 	{
+		LOGD("load hack lua:%s", hack_file_path);
 		hack_file_content = (char*)malloc(sizeof(char)*(hack_file_content_len + 1));
 		if (read_file(hack_file_path, hack_file_content, hack_file_content_len + 1) < 0)
 		{

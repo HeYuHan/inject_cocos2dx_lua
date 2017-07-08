@@ -640,11 +640,16 @@ int find_pid_of(const char *process_name)
     closedir(dir);
     return pid;
 }
-#define HELPSTR "error usage: %s -p PID -l LIBNAME [-d (debug on)] [-z (zygote)] [-m (no mprotect)] [-s (appname)] [-Z (trace count)] [-D (debug level)]\n"
+#define HELPSTR "error usage: %s -p PACKNAME -l LIBNAME [-d (debug on)] [-z (zygote)] [-m (no mprotect)] [-Z (trace count)] [-D (debug level)]\n"
 
 int main(int argc, char *argv[])
 {
 	printf("inject start...\n");
+	int i = 0;
+	for (i = 0; i < argc; i++)
+	{
+		printf("arg%d: %s\n", i,argv[i]);
+	}
 	pid_t pid = 0;
 	struct pt_regs2 regs;
 	unsigned long dlopenaddr, mprotectaddr, codeaddr, libaddr;
@@ -655,59 +660,66 @@ int main(int argc, char *argv[])
 	char *arg;
 	int opt;
 	char *appname = 0;
-	
-	//com.example.targetapp
-	//com.mahjong.sichuang
-	pid=find_pid_of("com.mahjong.sichuang");
-	printf("find pid:%d\n",pid);
-	arg="/data/data/com.hlx.hack.inject/lib/libexample.so";
-	//appname="com.example.targetapp";
+	char *packname;
+	int packname_len=0;
 	debug = 1;
-	n = strlen(arg)+1;
-	n = n/4 + (n%4 ? 1 : 0);
-// 	while ((opt = getopt(argc, argv, "p:l:dzms:Z:D:")) != -1) {
-//		switch (opt) {
-//			case 'p':
-//				pid = strtol(optarg, NULL, 0);
-//				break;
-//			case 'Z':
-//				zygote = strtol(optarg, NULL, 0);
-//			break;
-//			case 'D':
-//				debug = strtol(optarg, NULL, 0);
-//			break;
-//			case 'l':
-//				n = strlen(optarg)+1;
-//				n = n/4 + (n%4 ? 1 : 0);
-//				arg = malloc(n*sizeof(unsigned long));
-//				memcpy(arg, optarg, n*4);
-//				break;
-//			case 'm':
-//				nomprotect = 1;
-//				break;
-//			case 'd':
-//				debug = 1;
-//				break;
-//			case 'z':
-//				zygote = 1;
-//				break;
-//			case 's':
-//				zygote = 1;
-//				appname = strdup(optarg);
-//				break;
-//			default:
-//				fprintf(stderr, HELPSTR, argv[0]);
-//
-//				exit(0);
-//				break;
-//		}
-//	}
+	while ((opt = getopt(argc, argv, "p:l:dzm:Z:D:")) != -1) {
+		switch (opt) {
+		case 'p':
+			packname_len = strlen(optarg) + 1;
+			packname_len = packname_len / 4 + (packname_len % 4 ? 1 : 0);
+			packname = malloc(packname_len * sizeof(unsigned long));
+			memcpy(packname, optarg, packname_len * 4);
+			break;
+		case 'Z':
+			zygote = strtol(optarg, NULL, 0);
+			break;
+		case 'D':
+			debug = strtol(optarg, NULL, 0);
+			break;
+		case 'l':
+			n = strlen(optarg) + 1;
+			n = n / 4 + (n % 4 ? 1 : 0);
+			arg = malloc(n * sizeof(unsigned long));
+			memcpy(arg, optarg, n * 4);
+			break;
+		case 'm':
+			nomprotect = 1;
+			break;
+		case 'd':
+			debug = 1;
+			break;
+		case 'z':
+			zygote = 1;
+			break;
+		case 's':
+			zygote = 1;
+			appname = strdup(optarg);
+			break;
+		default:
+			fprintf(stderr, HELPSTR, argv[0]);
 
-	if (pid == 0 || n == 0) {
-		fprintf(stderr, HELPSTR, argv[0]);
+			exit(0);
+			break;
+		}
+	}
+	if (packname_len == 0)
+	{
+		printf("packname error...\n");
 		exit(0);
 	}
+	pid = find_pid_of(packname);
 
+	if (pid <=0) {
+		printf("pid by packname error:%s\n",packname);
+		exit(0);
+	}
+	if (n == 0)
+	{
+		printf("libname error:%s\n", packname);
+		exit(0);
+	}
+	printf("find pid:%d\n", pid);
 	if (!nomprotect) {
 		if (0 > find_name(pid, "mprotect", &mprotectaddr)) {
 			printf("can't find address of mprotect(), error!\n");
@@ -725,11 +737,7 @@ int main(int argc, char *argv[])
 	unsigned long int lkaddr;
 	unsigned long int lkaddr2;
 	find_linker(getpid(), &lkaddr);
-	//printf("own linker: 0x%x\n", lkaddr);
-	//printf("offset %x\n", dlopenaddr - lkaddr);
 	find_linker(pid, &lkaddr2);
-	//printf("tgt linker: %x\n", lkaddr2);
-	//printf("tgt dlopen : %x\n", lkaddr2 + (dlopenaddr - lkaddr));
 	dlopenaddr = lkaddr2 + (dlopenaddr - lkaddr);
 	if (debug)
 		printf("dlopen: 0x%lx\n", dlopenaddr);

@@ -8,21 +8,28 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.net.Socket;
 
 import android.support.v7.app.ActionBarActivity;
 import android.annotation.SuppressLint;
+import android.content.res.AssetManager;
+import android.graphics.Path;
 import android.os.Bundle;
+import android.os.Debug;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+
 
 @SuppressLint("NewApi")
 public class MainActivity extends ActionBarActivity {
 
 	static final String LOG_TAG="JNJECT";
-	private String exe_path = "/data/data/com.hlx.hack.inject/inject";  
-    private File exe_file;
+	static final String ALL_PACK_PATH_ROOT="/data/data/";
+	static final String PACK_PATH_ROOT="/data/data/com.hlx.hack.inject/";
 	private void execCmd(String cmd) throws IOException {
 		Process process=null;
 		DataOutputStream os=null;
@@ -62,11 +69,26 @@ public class MainActivity extends ActionBarActivity {
 	    
 	  
 	}
-	private void copyBigDataToSD(String strOutFileName) throws IOException   
-	{    
-	    InputStream myInput;    
-	    OutputStream myOutput = new FileOutputStream(strOutFileName);    
-	    myInput = this.getAssets().open("Inject");    
+	private static String GetDirPath(String filePath) {
+		int index=filePath.lastIndexOf("/");
+		return filePath.substring(0, index);
+	}
+	private static boolean CreateDirByPath(String path) {
+		File file=new File(path);
+		if(!file.exists())
+		{
+			
+			file.mkdirs();
+		}
+		return true;
+	}
+	private boolean CopyAssetsResToPath(String assetsPath,String destPath) throws IOException 
+	{
+		Log.e(LOG_TAG, destPath);
+		CreateDirByPath(GetDirPath(destPath));
+		InputStream myInput;  
+		OutputStream myOutput = new FileOutputStream(destPath);    
+	    myInput = this.getAssets().open(assetsPath); 
 	    byte[] buffer = new byte[1024];    
 	    int length = myInput.read(buffer);  
 	    while(length > 0)  
@@ -76,22 +98,82 @@ public class MainActivity extends ActionBarActivity {
 	    }  
         myOutput.flush();    
         myInput.close();    
-        myOutput.close();          
-    }  
-	
+        myOutput.close();  
+		return true;
+	} 
+	private boolean ReleaseHackFile(String parent) throws IOException
+	{
+		AssetManager assets = this.getAssets();
+		String[] hackStrings = assets.list(parent);
+		if(hackStrings!=null&&hackStrings.length>0)
+		{
+			for (String string : hackStrings) 
+			{
+				String filePath=parent+"/"+string;
+				boolean ret = ReleaseHackFile(filePath);
+				if(!ret)
+				{
+					String destPath=PACK_PATH_ROOT+filePath;
+					CopyAssetsResToPath(filePath,destPath);
+				}
+				
+			}
+			return true;
+		}
+		return false;
+		
+		
+	}
+	private void ParseConfig() throws IOException, JSONException {
+		AssetManager asset=getAssets();
+		InputStream myInput = this.getAssets().open("hack_res/config.json"); 
+		String content="";
+	    byte[] buffer = new byte[1024];    
+	    int length = myInput.read(buffer);  
+	    while(length > 0)  
+	    {  
+	    	content+=new String(buffer,0,length);
+	        length = myInput.read(buffer);  
+	    }    
+        myInput.close();  
+        JSONObject jObject=new JSONObject(content);
+        JSONArray array=jObject.getJSONArray("projects");
+        for(int i=0;i<array.length();i++)
+        {
+        	jObject=array.getJSONObject(i);
+        	String project = jObject.getString("project");
+        	String packName = jObject.getString("packName");
+        	String destPath = jObject.getString("destPath");
+        	String source = jObject.getString("source");
+        	String copy_origin_path=PACK_PATH_ROOT+source;
+        	String copy_dest_path=ALL_PACK_PATH_ROOT+packName+"/"+destPath;
+        	String cmd="rm -rf "+copy_dest_path+"\n";
+        	cmd+="mkdir -p "+copy_dest_path+"\n";
+        	cmd+="cp -r "+copy_origin_path+"/* "+copy_dest_path+"/\n";
+        	cmd+="chmod -R 777 "+ALL_PACK_PATH_ROOT+packName+"/*\n";
+        	Log.e(LOG_TAG,cmd);
+        	execCmd(cmd);
+        }
+        
+	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		try {  
-            copyBigDataToSD(exe_path);  
-            exe_file = new File(exe_path);    
-            exe_file.setExecutable(true, true);   
-            execCmd("chmod 777 "+ exe_path); 
-            execCmd(exe_path);  
-        } catch (IOException e1) {  
-            e1.printStackTrace();  
-        }
+		try {
+			ReleaseHackFile("hack_res");
+			execCmd("chmod -R 777 "+ PACK_PATH_ROOT); 
+			ParseConfig();
+			String exePath = PACK_PATH_ROOT+"hack_res/Inject -p com.mahjong.sichuang -l /data/data/com.hlx.hack.inject/lib/libexample.so";
+			execCmd(exePath);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

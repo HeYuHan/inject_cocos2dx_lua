@@ -1,0 +1,9 @@
+{
+	"projects": [{
+		"project": "hack_mj",
+		"packName": "com.mahjong.sichuang",
+		"destPath": "hack_res",
+		"source": "hack_res/hack_mj"
+	}]
+
+}

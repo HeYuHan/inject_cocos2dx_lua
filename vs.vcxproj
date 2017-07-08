@@ -72,7 +72,7 @@
     <IncludePath>$(NDK_ROOT)\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi\include;$(NDK_ROOT)\sources\cxx-stl\gnu-libstdc++\4.8\include;$(NDK_ROOT)\platforms\android-21\arch-arm\usr\include;$(JAVA_HOME)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>E:\CrashTools\android-ndk-r10e\platforms\android-21\arch-arm\usr\include;$(JAVA_HOME)\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(NDK_ROOT)\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi\include;$(NDK_ROOT)\sources\cxx-stl\gnu-libstdc++\4.8\include;$(NDK_ROOT)\platforms\android-21\arch-arm\usr\include;$(JAVA_HOME)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

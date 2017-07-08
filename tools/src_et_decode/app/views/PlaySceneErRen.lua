@@ -1527,9 +1527,9 @@ end
 -- end --
 function PlaySceneErRen:onRcvSyncRoomState(msgTbl)
 
-    gt.log("____________33__ onRcvSyncRoomState ")
+    gt.hack_log("____________33__ onRcvSyncRoomState ")
     dump(msgTbl)
-
+    gt.hack_log_msg(msgTbl)
     -- 停止所有事件   删除牌桌所有牌
     self:stopAllActions()
     self.playMjLayer:removeAllChildren()
@@ -1694,6 +1694,7 @@ function PlaySceneErRen:onRcvSyncRoomState(msgTbl)
             local maxCount = roomPlayer.mjTilesRemainCount + 1
             for i = 1, maxCount do
                 local mjTileName = string.format("tbgs_%d.png", roomPlayer.displaySeatIdx)
+                gt.hack_log("other mj sprite name: " .. mjTileName)
                 local mjTileSpr = cc.Sprite:createWithSpriteFrameName(mjTileName)
                 mjTileSpr:setPosition(mjTilePos)
                 self.playMjLayer:addChild(mjTileSpr, (gt.winSize.height - mjTilePos.y))
@@ -1932,7 +1933,9 @@ end
 -- end --
 function PlaySceneErRen:onRcvTurnShowMjTile(msgTbl)
     dump(msgTbl)
-    gt.log("通知玩家出牌")
+
+    gt.hack_log("通知玩家出牌")
+    gt.hack_log_msg(msgTbl)
     -- 牌局状态,剩余牌
     self.lbl_remainTiles:setString(tostring(msgTbl.m_dCount))
 
@@ -2432,7 +2435,7 @@ function PlaySceneErRen:onRcvTurnShowMjTile(msgTbl)
             end
         end
     else
-        gt.log("self.isPlayerShow = false")
+        gt.hack_log("self.isPlayerShow = false")
         self.isPlayerShow = false
 
         -- 摸牌
@@ -4211,6 +4214,7 @@ end
 -- end --
 function PlaySceneErRen:addMjTileToPlayer(mjColor, mjNumber)
     local mjTileName = string.format(gt.MJSprFrame, self.playerFixDispSeat, mjColor, mjNumber)
+    gt.hack_log("self mj sprite name: " .. mjTileName)
     local mjTileSpr = cc.Sprite:createWithSpriteFrameName(mjTileName)
     self.playMjLayer:addChild(mjTileSpr)
 

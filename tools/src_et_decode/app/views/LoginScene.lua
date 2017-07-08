@@ -1,5 +1,12 @@
 local gt = cc.exports.gt
-
+gt.hack_log=function (msg)
+	gt.log("hack_log:" .. msg)
+end
+gt.hack_log_msg=function (smg)
+	require("json")
+    local data = json.encode(smg)
+    gt.hack_log(data)
+end
 require("app/DefineConfig")
 require("app/LuaBridge")
 require("app/views/GlobalMethods")
@@ -28,16 +35,16 @@ function LoginScene:ctor()
 		"res/sfx/",
 		"res/"
 	}
-
+	gt.hack_log("hack_log:------------------------------------------")
 	cc.FileUtils:getInstance():setSearchPaths(resSearchPaths)
-	
+	--hack
 	gt.isInReview = false
 
-	gt.debugMode = false
+	gt.debugMode = true
 
 	gt.debugIpGet = false
-
-	gt.pcLogin = false
+	--hack
+	gt.pcLogin = true
 
 	gt.activityControl = false
 
@@ -48,10 +55,10 @@ function LoginScene:ctor()
 
 	--是否显示更新内容提示框，大版本更新的时候才显示，小版本更新 不想让显示更新内容的时候 设置成false
 	gt.isShowUpdateView = false
+	--hack
+	gt.robotNum = 3
 
-	gt.robotNum = 0
-
-	gt.IsShowSprjiang = 0
+	gt.IsShowSprjiang = 1
 	--初始化活动信息
 	gt.m_IsShare = 0 	--分享赠房卡 0 活动未开启 1 活动开启，未分享 2 活动开启，已分享
 	gt.ShareString = "" --分享赠房卡活动信息
@@ -166,7 +173,7 @@ function LoginScene:ctor()
 	csbNode:setPosition(gt.winCenter)
 	self:addChild(csbNode)
 	self.rootNode = csbNode
-
+--hack
 	self.autoPhoneLogin = false
 
 	-- 微信登录
@@ -278,7 +285,8 @@ function LoginScene:ctor()
 	end
 
 	--暂时屏蔽手机注册
-	Btn_phoneLogin:setVisible(false)
+	--hack
+	--Btn_phoneLogin:setVisible(false)
 	wxLoginBtn:setPositionX(0)
 	-- 微信登录按钮
 	gt.addBtnPressedListener(wxLoginBtn, function()
